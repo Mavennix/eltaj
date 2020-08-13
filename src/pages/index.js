@@ -1,21 +1,48 @@
 import React from "react"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
-
+const leanMoreOptions = [
+  {
+    text: "Queue Management",
+    to: "/about-us",
+  },
+  {
+    text: "Customer Journey Management",
+    to: "/about-us",
+  },
+  {
+    text: "Customer Feedback",
+    to: "/about-us",
+  },
+  {
+    text: "Business Intelligence",
+    to: "/about-us",
+  },
+]
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div className="container">
+      <h2>Learn more about our solutions</h2>
+      <div className="row gutters row-eq-height">
+        {
+          leanMoreOptions.map( option => <div className = "col-lg-3 col-md-6">
+            <div className="rounded shadow p-3">
+            <h6>{option.text}</h6>
+
+            </div>
+          </div>)
+        }
+      </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+    <div className="bg-primary text-white text-center py-5 my-5">
+      <h2>Would you like to see our products in action?</h2>
+      <Link className="btn btn-outline-light rounded-0 mt-4 px-5">
+        Book a free demo
+      </Link>
+    </div>
   </Layout>
 )
 
