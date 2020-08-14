@@ -2,6 +2,8 @@ import React from "react"
 import Layout from "../components/layout"
 import HeroImg from "../images/queue-management/queue-management-hero.jpg"
 import AboutImage from "../images/queue-management/about-image.jpg"
+import QMSBenefitImage from "../images/queue-management/qms-benefit.jpg"
+import BusinessActionImage from "../images/queue-management/business-action.jpg"
 import EltajImage from "../components/eltaj-image/eltaj-image"
 import LightTitleBox from "../components/light-title-box"
 import InfoSection from "../components/info-section/info-section"
@@ -46,7 +48,7 @@ const queueManagement = () => {
             </div>
           </div>
         </section>
-
+        {/* About Section */}
         <section className="container">
           <InfoSection textFirst={false} image={AboutImage}>
             <h6 className="text-muted mb-3">
@@ -96,7 +98,7 @@ const queueManagement = () => {
         </section>
         {/* Business Action */}
         <section className="container my-5">
-          <InfoSection textFirst={false} image={AboutImage}>
+          <InfoSection textFirst={false} image={BusinessActionImage}>
             <div className="mb-3">
               <LightTitleBox text="BUSINESS ACTION" />
             </div>
@@ -116,6 +118,7 @@ const queueManagement = () => {
             </div>
           </InfoSection>
         </section>
+
         {/* Business Inteligence */}
         <section className="container my-5">
           <InfoSection textFirst={true} image={AboutImage}>
@@ -141,13 +144,13 @@ const queueManagement = () => {
             </div>
           </InfoSection>
         </section>
+
         {/* Main Benefit */}
         <section className="container my-5">
-          <InfoSection textFirst={false} image={AboutImage}>
+          <InfoSection textFirst={false} image={QMSBenefitImage}>
             <h2 className="mb-4">
               Main Benefit Of Smart Queue Management System
             </h2>
-
             <div>
               <EltajList text="Reduce customer wait time" />
               <EltajList text="Promote social distancing" />

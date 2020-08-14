@@ -114,7 +114,6 @@ const IndexPage = () => (
         ))}
       </div>
     </div>
-
     <div className="container my-5">
       <CovidBanner />
     </div>
