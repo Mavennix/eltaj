@@ -1,11 +1,11 @@
 import React from "react"
+import LightTitleBox from "../light-title-box"
 
 const InfoBox = props => {
   return (
     <div className="shadow p-4 rounded w-100">
       <div className="d-flex justify-content-between align-items-start mb-3">
-          {/* TODO: extract  */}
-        <span className="rounded py-1 px-2  bg-light"><small>{props.caption}</small></span>
+          <LightTitleBox text={props.caption}/>
         <div className="">
           <img className="" src={props.icon} height="50" alt=""/>
         </div>

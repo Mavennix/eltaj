@@ -1,10 +1,12 @@
 import React from "react"
 import Layout from "../components/layout"
-import { Link } from "gatsby"
 import PrimaryDemoBanner from "../components/primary-demo-banner"
+import SecondaryDemoBanner from "../components/secondary-demo-banner"
 import assets from "../data/assets"
 import leanMoreOptions from "../data/learnMoreOptions"
 import RightArrowIcon from "../images/icons/arrow-right.svg"
+import AssetInfoBox from "../components/asset-info-box/asset-info-box"
+import LightTitleBox from "../components/light-title-box"
 
 const about = () => {
   return (
@@ -123,25 +125,7 @@ const about = () => {
       </div>
 
       {/* Book Demo Banner */}
-      <div className="bg-primary my-5">
-        <div className="container py-5">
-          <div className="row text-white py-4">
-            <div className="col-lg-8">
-              <h6 className="m-0">Schedule a free consultation</h6>
-              <h2>
-                Do you want to know if Eltaj solution is a good fit for your
-                business needs?
-              </h2>
-            </div>
-            <div className="col-lg-4 d-lg-flex justify-content-end align-items-center">
-              {" "}
-              <Link className="btn btn-outline-light rounded-0 mt-4 px-5">
-                Book a free demo
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
+     <SecondaryDemoBanner/>
 
       <div className="container text-center py-5">
         <h2 className="mb-4">
@@ -162,7 +146,7 @@ const about = () => {
           {assets.map((asset, index) => (
             <div className="col-lg-3">
               <div className="d-flex h-100">
-                <AssetsInfoBox title={asset.title} subtitle={asset.subtitle} />
+                <AssetInfoBox title={asset.title} subtitle={asset.subtitle} />
               </div>
             </div>
           ))}
@@ -174,21 +158,6 @@ const about = () => {
   )
 }
 
-const LightTitleBox = props => (
-  <span className="rounded py-1 px-2  bg-light">
-    <small>{props.text}</small>
-  </span>
-)
 
-const AssetsInfoBox = props => (
-  <>
-    <div className="p-3 shadow">
-      <div className="bg-light" style={{ height: "80px", width: "80px" }}></div>
-      <h5 className="text-left my-4">{props.title}</h5>
-      <div className="text-muted text-left">
-        <small> {props.subtitle}</small>
-      </div>
-    </div>
-  </>
-)
+
 export default about

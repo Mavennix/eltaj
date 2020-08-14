@@ -1,0 +1,29 @@
+.eltaj-image {
+  .image-grid {
+    bottom: 25px;
+
+    &.grid-left {
+      left: -5%;
+    }
+    &.grid-right {
+      right: -5%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .eltaj-image {
+    .image-grid {
+      left: -20%;
+    }
+
+    .image-grid {
+      &.grid-right {
+        right: -20%;
+      }
+      &.grid-left {
+        left: -5%;
+      }
+    }
+  }
+}
