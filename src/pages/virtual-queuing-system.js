@@ -13,7 +13,7 @@ import virtualQueueing from "../data/virtual-queueing"
 import PrimaryDemoBanner from "../components/primary-demo-banner"
 import EltajList from "../components/eltaj-list"
 
-const customerFeedback = () => {
+const virtualQueuingSystem = () => {
   return (
     <div>
       <Layout>
@@ -25,14 +25,12 @@ const customerFeedback = () => {
                 <div className="row">
                   <div className="col-md-10">
                     <div className="mb-3">
-                      <LightTitleBox text="CUSTOMER FEEDBACK" />
+                      <LightTitleBox text="VIRTUAL QUEUING SYSTEM" />
                     </div>
-                    <h1 className="mb-4">
-                      Use customer feedback to improve your service
-                    </h1>
+                    <h1 className="mb-4">Implement a remote queuing system</h1>
                     <h6 className="text-muted">
-                      Customers are an integral part of your business growth.
-                      What do they have to say about you?
+                      How to solve for queue frustration? Just allow your
+                      customers queue with their mobile devices.
                     </h6>
                   </div>
                 </div>
@@ -52,16 +50,12 @@ const customerFeedback = () => {
         <section className="container">
           <InfoSection textFirst={false} image={AboutImage}>
             <h6 className="text-muted mb-3">
-              You would agree that customers’ words can greatly influence how
-              your business is perceived in the market. Words spread like
-              wildfire. And, the word they speak of your brand depends on how
-              satisfied they are with your service.
-            </h6>
-            <h6 className="text-muted mb-3">
-              {" "}
-              Customer feedback gives you great insight into what your customers
-              have to say about your service. Which helps you improve your
-              service, thereby increasing customer loyalty and driving revenue.
+              Nobody likes to stand long hours waiting in line to receive a
+              service. It is a valid problem that makes businesses lose
+              customers to competitors. With the world going virtual, queues can
+              also go virtual. With Eltaj’s virtual queuing system, customers
+              schedule appointments online, wait in line remotely and receive
+              quality service with little or no hassle.
             </h6>
           </InfoSection>
         </section>
@@ -69,18 +63,14 @@ const customerFeedback = () => {
         {/*  */}
         <section className="container my-5">
           <InfoSection textFirst={true} image={BusinessActionImage}>
-            <h2 className="mb-4">Smart Customer Feedback Channel</h2>
-            <h6 className="text-muted mb-3">
-              With the Omnichannel customer feedback system, you give customers
-              multiple channels to tell you how they feel about your service at
-              each touchpoint. Customers express themselves with emotions, and
-              you receive data on their transaction and wait time.
-            </h6>
+            <h2 className="mb-4">
+              Customers complete queuing processes on their devices
+            </h2>
             <div>
-              <EltajList text="NPS" />
-              <EltajList text="Smileys" />
-              <EltajList text="Touch screen display" />
-              <EltajList text="Self-service kiosk" />
+              <EltajList text="Mobile Ticketing - customer scan QR codes to get virtual tickets, queue remotely and receive a real-time update on their position on the queue." />
+              <EltajList text="Online appointment booking- Customers can schedule an appointment online before or after walking into your premises." />
+              <EltajList text="Check-in and serving apps - Staff can get out from behind a counter and onto the service floor to serve visitors directly." />
+              <EltajList text="Email and sms- Inform customers on their real-time queue status." />
             </div>
           </InfoSection>
         </section>
@@ -88,18 +78,20 @@ const customerFeedback = () => {
         {/*  */}
         <section className="container my-5">
           <InfoSection textFirst={false} image={AboutImage}>
-            <h2 className="mb-4">Acting On Voice Of cCstomer (VOC)</h2>
+            <h2 className="mb-4">
+              Gain actionable insights into customers’ behaviour
+            </h2>
             <h6 className="text-muted mb-3">
-              The VOC programs, you gather customer feedback data from surveys
-              or, analyze the data to understand what the feedback says about
-              your business, learn how it affects each touchpoint in the
-              customer journey, and drive new ideas to optimize the customer
-              experience.
+              Transform your branches into smart branches to monitor and manage
+              customer behaviour while they wait to earn your service. With
+              Eltaj’s Business intelligence tool, you get real-time data on your
+              service, customer wait time and customer behaviour.
             </h6>
             <div>
-              <EltajList text="Collect customer feedback and organise the data." />
-              <EltajList text="Analyze customer journey management data to pinpoint the most important business metrics and trends.e." />
-              <EltajList text="Predict market projections by estimating trends in customer behaviour." />
+              <EltajList text="Track number of customers, average wait time and average service time to improve queue experience." />
+              <EltajList text="Collect customer feedback to know how satisfied they are with your service." />
+              <EltajList text="Monitor and analyse data to optimize service." />
+              <EltajList text="Monitor VOC to gain customer perception" />
             </div>
           </InfoSection>
         </section>
@@ -107,15 +99,15 @@ const customerFeedback = () => {
         {/* Main Benefit */}
         <section className="container my-5">
           <InfoSection textFirst={true} image={QMSBenefitImage}>
-            <h2 className="mb-4">
-              Main Benefits Of The Smart Customer Feedback
-            </h2>
+            <h2 className="mb-4">Main Benefits of Virtual Queuing System</h2>
             <div>
-              <EltajList text="Improve the quality of product and service" />
-              <EltajList text="Increase brand loyalty" />
-              <EltajList text="Reap the benefit of word-of-mouth" />
+              <EltajList text="Reduce wait time." />
               <EltajList text="Improve customer experience" />
-              <EltajList text="Make informed decisions" />
+              <EltajList text="Increase staff efficiency and productivity" />
+              <EltajList text="Empower your employees to work more efficiently" />
+              <EltajList text="Boost your revenue with cross-selling and upselling." />
+              <EltajList text="Create a seamless customer journey." />
+              <EltajList text="Take control of branches remotely in real-time." />
             </div>
           </InfoSection>
         </section>
@@ -125,4 +117,4 @@ const customerFeedback = () => {
   )
 }
 
-export default customerFeedback
+export default virtualQueuingSystem
