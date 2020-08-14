@@ -9,10 +9,16 @@ $enable-responsive-font-sizes: true;
 
 body {
   font-family: "Poppins", sans-serif !important;
-  h6{
-    &.text-muted{
-      line-height:1.6rem;
+  h6 {
+    &.text-muted {
+      line-height: 1.6rem;
     }
+  }
+
+  .dropdown-menu {
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
   }
 }
 
@@ -29,5 +35,3 @@ body {
     color: #ff0000 !important;
   }
 }
-
-

@@ -13,7 +13,7 @@ import virtualQueueing from "../data/virtual-queueing"
 import PrimaryDemoBanner from "../components/primary-demo-banner"
 import EltajList from "../components/eltaj-list"
 
-const customerFeedback = () => {
+const onlineAppointmentBooking = () => {
   return (
     <div>
       <Layout>
@@ -25,14 +25,15 @@ const customerFeedback = () => {
                 <div className="row">
                   <div className="col-md-10">
                     <div className="mb-3">
-                      <LightTitleBox text="CUSTOMER FEEDBACK" />
+                      <LightTitleBox text="ONLINE APPOINTMENT BOOKING" />
                     </div>
                     <h1 className="mb-4">
-                      Use customer feedback to improve your service
+                      Where the queuing problem stops. The solution starts
+                      online.
                     </h1>
                     <h6 className="text-muted">
-                      Customers are an integral part of your business growth.
-                      What do they have to say about you?
+                      Customers can book appointments online before proceeding
+                      to branches or better still, start the appointment online.
                     </h6>
                   </div>
                 </div>
@@ -52,16 +53,14 @@ const customerFeedback = () => {
         <section className="container">
           <InfoSection textFirst={false} image={AboutImage}>
             <h6 className="text-muted mb-3">
-              You would agree that customers’ words can greatly influence how
-              your business is perceived in the market. Words spread like
-              wildfire. And, the word they speak of your brand depends on how
-              satisfied they are with your service.
+              Your enterprise can reduce customer waiting time, reduce
+              congestion and manage customer flow in your branches with an
+              online solution.
             </h6>
             <h6 className="text-muted mb-3">
-              {" "}
-              Customer feedback gives you great insight into what your customers
-              have to say about your service. Which helps you improve your
-              service, thereby increasing customer loyalty and driving revenue.
+              With Eltaj’s online appointment booking software, a customer
+              proceeds to book an appointment on your website or app before
+              visiting your branches to receive a service.
             </h6>
           </InfoSection>
         </section>
@@ -69,18 +68,13 @@ const customerFeedback = () => {
         {/*  */}
         <section className="container my-5">
           <InfoSection textFirst={true} image={BusinessActionImage}>
-            <h2 className="mb-4">Smart Customer Feedback Channel</h2>
-            <h6 className="text-muted mb-3">
-              With the Omnichannel customer feedback system, you give customers
-              multiple channels to tell you how they feel about your service at
-              each touchpoint. Customers express themselves with emotions, and
-              you receive data on their transaction and wait time.
-            </h6>
+            <h2 className="mb-4">
+              It’s simple and smart. Here’s how it works:
+            </h2>
             <div>
-              <EltajList text="NPS" />
-              <EltajList text="Smileys" />
-              <EltajList text="Touch screen display" />
-              <EltajList text="Self-service kiosk" />
+              <EltajList text="Online booking: Customers choose the preferred service center, preferred service and available time slots. Then, receive reminders on the due date and time." />
+              <EltajList text="Self Check-in: Customers receive a check-in link through reminder. Alternatively, customers scan QR codes on doors to check-in." />
+              <EltajList text="Arrival: Customers are notified with a messaging service when it’s their turn to be served." />
             </div>
           </InfoSection>
         </section>
@@ -88,18 +82,13 @@ const customerFeedback = () => {
         {/*  */}
         <section className="container my-5">
           <InfoSection textFirst={false} image={AboutImage}>
-            <h2 className="mb-4">Acting On Voice Of cCstomer (VOC)</h2>
-            <h6 className="text-muted mb-3">
-              The VOC programs, you gather customer feedback data from surveys
-              or, analyze the data to understand what the feedback says about
-              your business, learn how it affects each touchpoint in the
-              customer journey, and drive new ideas to optimize the customer
-              experience.
-            </h6>
+            <h2 className="mb-4">There’s more to it</h2>
             <div>
-              <EltajList text="Collect customer feedback and organise the data." />
-              <EltajList text="Analyze customer journey management data to pinpoint the most important business metrics and trends.e." />
-              <EltajList text="Predict market projections by estimating trends in customer behaviour." />
+              <EltajList text="Calendar: Have an overview of all your customer bookings and time." />
+              <EltajList text="Reminder: Alert customers of appointment date and time." />
+              <EltajList text="Video appointment: Allow customers to chat with your representatives virtually." />
+              <EltajList text="Customer journey management: Manage customer workflow and monitor their behaviour at every touchpoint to improve customer experience and increase staff efficiency." />
+              <EltajList text="Data and analytics : Make insightful business decisions with customer behaviour data." />
             </div>
           </InfoSection>
         </section>
@@ -108,14 +97,16 @@ const customerFeedback = () => {
         <section className="container my-5">
           <InfoSection textFirst={true} image={QMSBenefitImage}>
             <h2 className="mb-4">
-              Main Benefits Of The Smart Customer Feedback
+              Main Benefits of the Online Booking appointment
             </h2>
             <div>
-              <EltajList text="Improve the quality of product and service" />
+              <EltajList text="Reduce customer wait time" />
+              <EltajList text="Manage customer flow" />
+              <EltajList text="Increase social distancing" />
+              <EltajList text="Gain actionable insights on customers" />
+              <EltajList text="Boost customers happiness" />
               <EltajList text="Increase brand loyalty" />
-              <EltajList text="Reap the benefit of word-of-mouth" />
-              <EltajList text="Improve customer experience" />
-              <EltajList text="Make informed decisions" />
+              <EltajList text="Boost Revenue" />
             </div>
           </InfoSection>
         </section>
@@ -125,4 +116,4 @@ const customerFeedback = () => {
   )
 }
 
-export default customerFeedback
+export default onlineAppointmentBooking
