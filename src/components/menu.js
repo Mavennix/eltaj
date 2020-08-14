@@ -14,7 +14,7 @@ const Menu = () => (
                         <Link className="nav-link text-dark" to="/">Home</Link>
                     </li>
                     <li class="nav-item">
-                        <Link className="nav-link text-dark" to="/">About</Link>
+                        <Link className="nav-link text-dark" to="/about">About</Link>
                     </li>
                     <li class="nav-item">
                         <Link className="nav-link text-dark" to="/">Solutions</Link>
