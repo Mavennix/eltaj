@@ -5,3 +5,16 @@ $light: #F1EDF7;
 
 $enable-responsive-font-sizes: true;
 @import "~bootstrap/scss/bootstrap.scss";
+
+.red-hr {
+    border-bottom: 2px solid #FF0000;
+    width: 20%;
+    margin-bottom: 15px;
+}
+
+
+.active {
+    & .nav-link {
+        color: #FF0000 !important;
+    }
+}

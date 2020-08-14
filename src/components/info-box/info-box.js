@@ -12,6 +12,8 @@ const InfoBox = props => {
         <div className="row mb-5">
             <div className="col-lg-9">
             <h4>{props.title}</h4>
+
+            <div className="red-hr"></div>
             </div>
         </div>
       
