@@ -1,7 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Link } from "gatsby"
 import InfoBox from "../components/info-box/info-box"
 import transformationSteps from "../data/transfromationsSeps"
 import leanMoreOptions from "../data/learnMoreOptions"
@@ -12,7 +11,8 @@ import ClientImages from "../data/client-images"
 import Client from "../components/clients"
 
 // image import
-import HeroImg from '../images/landing-page/hero-img.png'
+import HeroImg from "../images/landing-page/hero-img.png"
+import PrimaryDemoBanner from "../components/primary-demo-banner"
 
 const IndexPage = () => (
   <Layout>
@@ -26,15 +26,15 @@ const IndexPage = () => (
             <div className="row">
               <div className="col-md-10">
                 <h1 className="mb-4">This is where the experience begins</h1>
-
-                <h6 className="text-muted">With Eltaj digital solutions, you create a seamless customer experience at each point of the customer journey.</h6>
+                <h6 className="text-muted">
+                  With Eltaj digital solutions, you create a seamless customer
+                  experience at each point of the customer journey.
+                </h6>
               </div>
             </div>
-
-
             <button className="btn btn-primary rounded-0 text-center px-4 mt-5">
               Book a free demo
-             </button>
+            </button>
           </div>
 
           <div className="col-md-6 text-md-right">
@@ -45,14 +45,13 @@ const IndexPage = () => (
     </section>
 
     {/* client section */}
-    <section className="py-4" style={{ background: '#F7F7F7' }}>
+    <section className="py-4" style={{ background: "#F7F7F7" }}>
       <div className="container">
-        <h6 className="text-muted">These companies are creating the best experience through Eltaj</h6>
+        <h6 className="text-muted">
+          These companies are creating the best experience through Eltaj
+        </h6>
         {ClientImages.map((client, index) => (
-          <Client
-            image={client.image}
-            name={client.name}
-          />
+          <Client image={client.image} name={client.name} />
         ))}
       </div>
     </section>
@@ -115,14 +114,7 @@ const IndexPage = () => (
     <div className="container my-5">
       <CovidBanner />
     </div>
-    <div className="bg-primary text-white text-center py-5 my-5">
-      <div className="py-5">
-        <h2>Would you like to see our products in action?</h2>
-        <Link className="btn btn-outline-light rounded-0 mt-4 px-5">
-          Book a free demo
-        </Link>
-      </div>
-    </div>
+    <PrimaryDemoBanner />
   </Layout>
 )
 

@@ -11,22 +11,22 @@ const Menu = () => (
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <Link className="nav-link" to="/">Home</Link>
+                        <Link className="nav-link text-dark" to="/">Home</Link>
                     </li>
                     <li class="nav-item">
-                        <Link className="nav-link" to="/">About</Link>
+                        <Link className="nav-link text-dark" to="/">About</Link>
                     </li>
                     <li class="nav-item">
-                        <Link className="nav-link" to="/">Solutions</Link>
+                        <Link className="nav-link text-dark" to="/">Solutions</Link>
                     </li>
                     <li class="nav-item">
-                        <Link className="nav-link" to="/">Products</Link>
+                        <Link className="nav-link text-dark" to="/">Products</Link>
                     </li>
                     <li class="nav-item">
-                        <Link className="nav-link" to="/">Industries</Link>
+                        <Link className="nav-link text-dark" to="/">Industries</Link>
                     </li>
                     <li class="nav-item">
-                        <Link className="nav-link" to="/">Blog</Link>
+                        <Link className="nav-link text-dark" to="/">Blog</Link>
                     </li>
 
                     <li className="ml-md-4 ml-0">
