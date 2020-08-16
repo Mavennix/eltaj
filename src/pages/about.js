@@ -7,6 +7,11 @@ import leanMoreOptions from "../data/learnMoreOptions"
 import RightArrowIcon from "../images/icons/arrow-right.svg"
 import AssetInfoBox from "../components/asset-info-box/asset-info-box"
 import LightTitleBox from "../components/light-title-box"
+import WhoWeAre from '../images/about/about.png'
+import WhatWeOfferImg from '../images/about/what-we-offer.png'
+import SolutionTailoredImg from '../images/about/solution-tailored.png'
+
+import EltajImage from "../components/eltaj-image/eltaj-image"
 
 const about = () => {
   return (
@@ -30,7 +35,9 @@ const about = () => {
         </div>
         <div className="row">
           <div className="col-lg-6">
-            <div className="d-flex border h-100 w-100"></div>
+            <div className="d-flex h-100 w-100">
+              <EltajImage image={WhoWeAre} isImageRight={false}/>
+            </div>
           </div>
           <div className="col-lg-6">
             <h6 className=" text-left mb-4 text-muted">
@@ -84,7 +91,9 @@ const about = () => {
             </h6>
           </div>
           <div className="col-lg-6">
-            <div className="d-flex border h-100 w-100"></div>
+            <div className="d-flex h-100 w-100">
+            <EltajImage image={WhatWeOfferImg} isImageRight={true}/>
+            </div>
           </div>
         </div>
         {/* What we offer End */}
@@ -92,7 +101,9 @@ const about = () => {
         {/* Our Solutions*/}
         <div className="row my-5 py-5">
           <div className="col-lg-6">
-            <div className="d-flex border h-100 w-100"></div>
+            <div className="d-flex h-100 w-100">
+            <EltajImage image={SolutionTailoredImg} isImageRight={false}/>
+            </div>
           </div>
           <div className="col-lg-6">
             <div className="text-left mb-3">
@@ -101,7 +112,7 @@ const about = () => {
             </div>
             <h2 className="mb-5 text-left">
               Our Solutions Are Tailored To Your Specific Industry
-              <span className="text-primary">Needs.</span>
+              <span className="text-primary"> Needs.</span>
             </h2>
             <h6 className="text-left mb-4 text-muted">
               We do not assume that our solution fits all industries. This is
@@ -146,7 +157,7 @@ const about = () => {
           {assets.map((asset, index) => (
             <div className="col-lg-3">
               <div className="d-flex h-100">
-                <AssetInfoBox title={asset.title} subtitle={asset.subtitle} />
+                <AssetInfoBox title={asset.title} subtitle={asset.subtitle} image={asset.image}/>
               </div>
             </div>
           ))}

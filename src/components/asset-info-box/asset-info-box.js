@@ -5,9 +5,11 @@ const AssetInfoBox = (props) => {
     <>
       <div className="p-3 shadow rounded">
         <div
-          className="bg-light"
+          className="d-flex"
           style={{ height: "80px", width: "80px" }}
-        ></div>
+        >
+          <img src={props.image} />
+        </div>
         <h5 className="text-left my-4">{props.title}</h5>
         <div className="text-muted text-left">
           <small> {props.subtitle}</small>

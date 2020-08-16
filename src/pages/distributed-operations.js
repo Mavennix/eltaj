@@ -1,9 +1,9 @@
 import React from "react"
 import Layout from "../components/layout"
-import HeroImg from "../images/queue-management/queue-management-hero.jpg"
-import AboutImage from "../images/queue-management/about-image.jpg"
-import QMSBenefitImage from "../images/queue-management/qms-benefit.jpg"
-import BusinessActionImage from "../images/queue-management/business-action.jpg"
+import HeroImg from "../images/distributed operations/distributed-operations.png"
+import AboutImage from "../images/distributed operations/distributed-system.png"
+import DSBenefitImage from "../images/distributed operations/benefits-of-distributed-server.png"
+import ServerImage from "../images/distributed operations/servers.png"
 import EltajImage from "../components/eltaj-image/eltaj-image"
 import LightTitleBox from "../components/light-title-box"
 import InfoSection from "../components/info-section/info-section"
@@ -61,7 +61,7 @@ const distributedOperations = () => {
 
         {/*  */}
         <section className="container my-5">
-          <InfoSection textFirst={true} image={BusinessActionImage}>
+          <InfoSection textFirst={true} image={ServerImage}>
             <h2 className="mb-4">
               Install a customizable hub in all locations to a central server
             </h2>
@@ -87,7 +87,7 @@ const distributedOperations = () => {
 
         {/* Main Benefit */}
         <section className="container my-5">
-          <InfoSection textFirst={false} image={QMSBenefitImage}>
+          <InfoSection textFirst={false} image={DSBenefitImage}>
             <h2 className="mb-4">Main Benefits of Distributed Operations</h2>
             <div>
               <EltajList text="Manage enterprise workflow from centralised location." />
