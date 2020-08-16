@@ -7,73 +7,17 @@ import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
 import EltajLogo from "../images/eltajlogo.svg"
 
+const style = {
+  color: '#17161A',
+  textDecoration: 'none'
+}
+
+const activeStyle = {
+  color: '#FF0000',
+}
+
 const Menu = () => (
   <div className="container">
-    {/* <nav class="navbar navbar-expand-lg navbar-light pt-3">
-      <Link class="navbar-brand" to="/">
-        Navbar
-      </Link>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <NavDropdown title="Dropdown" id="nav-dropdown">
-            <NavDropdown.Item eventKey="4.1">Action</NavDropdown.Item>
-            <NavDropdown.Item eventKey="4.2">Another action</NavDropdown.Item>
-            <NavDropdown.Item eventKey="4.3">
-              Something else here
-            </NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item eventKey="4.4">Separated link</NavDropdown.Item>
-          </NavDropdown>
-          <li class="nav-item active">
-            <Link className="nav-link text-dark" to="/">
-              Home
-            </Link>
-          </li>
-          <li class="nav-item">
-            <Link className="nav-link text-dark" to="/about">
-              About
-            </Link>
-          </li>
-          <li class="nav-item">
-            <Link className="nav-link text-dark" to="/">
-              Solutions
-            </Link>
-          </li>
-          <li class="nav-item">
-            <Link className="nav-link text-dark" to="/">
-              Products
-            </Link>
-          </li>
-          <li class="nav-item">
-            <Link className="nav-link text-dark" to="/">
-              Industries
-            </Link>
-          </li>
-          <li class="nav-item">
-            <Link className="nav-link text-dark" to="/">
-              Blog
-            </Link>
-          </li>
-
-          <li className="ml-md-4 ml-0">
-            <button className="btn btn-outline-primary rounded-0 text-center px-4">
-              Book a free demo
-            </button>
-          </li>
-        </ul>
-      </div>
-    </nav> */}
     <Navbar
       collapseOnSelect
       expand="lg"
@@ -85,39 +29,34 @@ const Menu = () => (
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto mr-3">
-          <Nav.Link href="#features">Home</Nav.Link>
-          <Nav.Link href="/about">About</Nav.Link>
+          <Nav.Link><Link to="/" style={style} activeStyle={activeStyle}>Home</Link></Nav.Link>
+          <Nav.Link><Link to="/about" style={style} activeStyle={activeStyle}>About</Link></Nav.Link>
           <NavDropdown title="Solutions" id="solutions-nav-dropdown">
-            {/* <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
-              Another action
-            </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.4">
-              Separated link
-            </NavDropdown.Item> */}
+            <NavDropdown.Item><Link to="/queue-management" style={style}>Queue Management</Link></NavDropdown.Item>
+            <NavDropdown.Item><Link to="/customer-journey-management" style={style}>Customer Journey Management</Link></NavDropdown.Item>
+            <NavDropdown.Item><Link to="/customer-feedback" style={style}>Customer Feedback</Link></NavDropdown.Item>
+            <NavDropdown.Item><Link to="/business-intelligence" style={style}>Business Intelligence</Link></NavDropdown.Item>
+            <NavDropdown.Item><Link to="/virtual-queuing-system" style={style}>Virtual Queuing System</Link></NavDropdown.Item>
+            <NavDropdown.Item><Link to="/distributed-operations" style={style}>Distributed Operations</Link></NavDropdown.Item>
+            <NavDropdown.Item><Link to="/online-appointment-booking" style={style}>Online Appointment Booking</Link></NavDropdown.Item>
+
+
           </NavDropdown>
           <NavDropdown title="Products" id="products-nav-dropdown">
-            {/* <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
-              Another action
-            </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">
-              Separated link
-            </NavDropdown.Item> */}
+            <NavDropdown.Item><Link to="/qmatic-orchestra-7" style={style}>Enterprise: Qmatic Orchestra 7</Link></NavDropdown.Item>
+            <NavDropdown.Item><Link to="/qmatic-solo" style={style}>Single Location: Solo</Link></NavDropdown.Item>
+            <NavDropdown.Item><Link to="/qmatic-cloud-solution" style={style}>Qmatic Cloud Solution</Link></NavDropdown.Item>
+            <NavDropdown.Item><Link to="/self-service-kiosk" style={style}>Self Service Kiosk</Link></NavDropdown.Item>
+            <NavDropdown.Item><Link to="/digital-signage" style={style}>Digital Signage</Link></NavDropdown.Item>
           </NavDropdown>
+
+
           <NavDropdown title="Industries" id="industries-nav-dropdown">
-            {/* <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
-              Another action
-            </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">
-              Separated link
-            </NavDropdown.Item> */}
+            <NavDropdown.Item><Link to="/finance" style={style}>Finance</Link></NavDropdown.Item>
+            <NavDropdown.Item><Link to="/healthcare" style={style}>Health Care</Link></NavDropdown.Item>
+            <NavDropdown.Item><Link to="/telecom" style={style}>Telecom</Link></NavDropdown.Item>
+            <NavDropdown.Item><Link to="/public-sector" style={style}>Public Sector</Link></NavDropdown.Item>
+            <NavDropdown.Item><Link to="/retail" style={style}>Retail</Link></NavDropdown.Item>
           </NavDropdown>
         </Nav>
         <Nav>
