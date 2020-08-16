@@ -5,6 +5,7 @@ import Dropdown from "react-bootstrap/Dropdown"
 import NavDropdown from "react-bootstrap/NavDropdown"
 import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
+import EltajLogo from "../images/eltajlogo.svg"
 
 const Menu = () => (
   <div className="container">
@@ -80,24 +81,24 @@ const Menu = () => (
       bg="white"
       variant="light"
     >
-      <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+      <Navbar.Brand href="#home"><img src={EltajLogo} alt=""/></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto mr-3">
           <Nav.Link href="#features">Home</Nav.Link>
-          <Nav.Link href="#pricing">About</Nav.Link>
+          <Nav.Link href="/about">About</Nav.Link>
           <NavDropdown title="Solutions" id="solutions-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+            {/* <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">
               Another action
             </NavDropdown.Item>
             <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.4">
               Separated link
-            </NavDropdown.Item>
+            </NavDropdown.Item> */}
           </NavDropdown>
-          <NavDropdown title="Propducts" id="products-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+          <NavDropdown title="Products" id="products-nav-dropdown">
+            {/* <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">
               Another action
             </NavDropdown.Item>
@@ -105,10 +106,10 @@ const Menu = () => (
             <NavDropdown.Divider />
             <NavDropdown.Item href="#action/3.4">
               Separated link
-            </NavDropdown.Item>
+            </NavDropdown.Item> */}
           </NavDropdown>
           <NavDropdown title="Industries" id="industries-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+            {/* <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">
               Another action
             </NavDropdown.Item>
@@ -116,7 +117,7 @@ const Menu = () => (
             <NavDropdown.Divider />
             <NavDropdown.Item href="#action/3.4">
               Separated link
-            </NavDropdown.Item>
+            </NavDropdown.Item> */}
           </NavDropdown>
         </Nav>
         <Nav>
