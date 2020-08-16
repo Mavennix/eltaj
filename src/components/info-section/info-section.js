@@ -8,7 +8,7 @@ const InfoSection = props => {
           props.textFirst ? "order-md-last" : "order-md-first"
         }`}
       >
-        <img src={props.image} alt="" />
+        <img src={props.image} className="img-fluid" alt="" />
       </div>
       <div className="col-md-6  mb-3 text-md-left text-center">
         {props.children}
