@@ -1,9 +1,9 @@
 import React from "react"
 import Layout from "../components/layout"
-import HeroImg from "../images/queue-management/queue-management-hero.jpg"
-import AboutImage from "../images/queue-management/about-image.jpg"
+import HeroImg from "../images/virtual-queuing-system/virtual-queuing-system.png"
+import AboutImage from "../images/virtual-queuing-system/about-virtual-queuing.png"
 import QMSBenefitImage from "../images/queue-management/qms-benefit.jpg"
-import BusinessActionImage from "../images/queue-management/business-action.jpg"
+import BusinessActionImage from "../images/virtual-queuing-system/queuing-mobile.png"
 import EltajImage from "../components/eltaj-image/eltaj-image"
 import LightTitleBox from "../components/light-title-box"
 import InfoSection from "../components/info-section/info-section"
@@ -12,6 +12,7 @@ import AssetInfoBox from "../components/asset-info-box/asset-info-box"
 import virtualQueueing from "../data/virtual-queueing"
 import PrimaryDemoBanner from "../components/primary-demo-banner"
 import EltajList from "../components/eltaj-list"
+
 
 const virtualQueuingSystem = () => {
   return (
@@ -47,7 +48,7 @@ const virtualQueuingSystem = () => {
           </div>
         </section>
         {/* About Section */}
-        <section className="container">
+        <section className="container mb-5 pb-5">
           <InfoSection textFirst={false} image={AboutImage}>
             <h6 className="text-muted mb-3">
               Nobody likes to stand long hours waiting in line to receive a
@@ -98,7 +99,7 @@ const virtualQueuingSystem = () => {
 
         {/* Main Benefit */}
         <section className="container my-5">
-          <InfoSection textFirst={true} image={QMSBenefitImage}>
+          <InfoSection textFirst={true} image={HeroImg}>
             <h2 className="mb-4">Main Benefits of Virtual Queuing System</h2>
             <div>
               <EltajList text="Reduce wait time." />

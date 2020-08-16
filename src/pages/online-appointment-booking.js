@@ -1,9 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
-import HeroImg from "../images/queue-management/queue-management-hero.jpg"
-import AboutImage from "../images/queue-management/about-image.jpg"
-import QMSBenefitImage from "../images/queue-management/qms-benefit.jpg"
-import BusinessActionImage from "../images/queue-management/business-action.jpg"
+import HeroImg from "../images/online-appointment-booking/online-appointment-img.png"
+import AboutImage from "../images/online-appointment-booking/about-img.png"
+import QMSBenefitImage from "../images/online-appointment-booking/system-online-booking.png"
+import BookingTabImg from "../images/online-appointment-booking/how-it-works-tab.png"
+import BookingPhoneImg from "../images/online-appointment-booking/how-it-works-mobile.png"
 import EltajImage from "../components/eltaj-image/eltaj-image"
 import LightTitleBox from "../components/light-title-box"
 import InfoSection from "../components/info-section/info-section"
@@ -67,7 +68,7 @@ const onlineAppointmentBooking = () => {
 
         {/*  */}
         <section className="container my-5">
-          <InfoSection textFirst={true} image={BusinessActionImage}>
+          <InfoSection textFirst={true} image={BookingTabImg}>
             <h2 className="mb-4">
               It’s simple and smart. Here’s how it works:
             </h2>
@@ -81,7 +82,7 @@ const onlineAppointmentBooking = () => {
 
         {/*  */}
         <section className="container my-5">
-          <InfoSection textFirst={false} image={AboutImage}>
+          <InfoSection textFirst={false} image={BookingPhoneImg}>
             <h2 className="mb-4">There’s more to it</h2>
             <div>
               <EltajList text="Calendar: Have an overview of all your customer bookings and time." />
