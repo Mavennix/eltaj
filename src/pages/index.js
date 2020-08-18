@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState, useEffect } from 'react';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import InfoBox from "../components/info-box/info-box"
@@ -9,16 +9,31 @@ import features from "../data/features"
 import FeatureBox from "../components/feature-box/feature-box"
 import ClientImages from "../data/client-images"
 import Client from "../components/clients"
+import CovidModal from "../components/covid-modal"
 
 // image import
 import HeroImg from "../images/landing-page/hero-img.png"
 import PrimaryDemoBanner from "../components/primary-demo-banner"
 import EltajImage from "../components/eltaj-image/eltaj-image"
 import RightArrowIcon from "../images/icons/arrow-right.svg"
-
-const IndexPage = () => (
+import Button from 'react-bootstrap/Button'
+const IndexPage = () => {
+  const [modalShow, setModalShow] = useState(false);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setModalShow(true);
+    }, 3000);
+    return () => clearTimeout(timer);
+  }, []);
+  return (
   <Layout>
     <SEO title="Home" />
+    {/* Covid Modal  */}
+    <CovidModal
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+      />
+    {/* Covid Modal End */}
 
     {/* hero section */}
     <section className="pb-5">
@@ -120,6 +135,6 @@ const IndexPage = () => (
     </div>
     <PrimaryDemoBanner />
   </Layout>
-)
+)}
 
 export default IndexPage
