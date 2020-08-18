@@ -7,25 +7,25 @@ const features = [
     image: IndustryWideExpImg,
     title: "Industry Wide Experience",
     subtitle:
-      "What industry does your business operate in? Our solutions can be customized to meet your specific industry needs.",
+      "Which industry do you operate in? Well, whichever it is, our products and solutions can be tailored to meet your specific industry needs.",
   },
   {
     image: ScalabilityImg,
     title: "Scalability",
     subtitle:
-      "Our solutions are designed to help keep up ever evolving marketing trends. With Eltaj solution, you can gain a competitive edge in your market.",
+      "Our solutions are designed to keep up with the ever evolving market trend..",
   },
   {
     image: SeamlessIntegrationImg,
     title: "Seamless Integration",
     subtitle:
-      "Our solutions integrates seamlessly with your system, enabling you to create a completely experience for customers",
+      "Our solutions  integrates seamlessly with your system. Thus, enabling you  to create a complete experience for  customers.",
   },
   {
     image: CustomerSupportImg,
     title: "Customer Support",
     subtitle:
-      "We provide 24/7 support on installation, technical and solution consultancy.",
+      "We offer installation upon purchase. And, of course, provide 24/7 support on any technical issues that may arise",
   },
 ]
 

@@ -23,10 +23,10 @@ const transformationSteps = [
     icon: PieChartIcon,
     title: "Utilize your customer data",
     subtitle:
-      "With insights gained from customer data, invent solutions meet their needs",
+      "With insights gained from customer data, invent solutions that meets customers' needs.",
   },
   {
-    caption: "Collect",
+    caption: "Engage",
     icon: SmoothFlowIcon,
     title: "Make the customer experience Seamless",
     subtitle:

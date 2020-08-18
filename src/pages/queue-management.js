@@ -90,7 +90,7 @@ const queueManagement = () => {
             {virtualQueueing.map((queue, index) => (
               <div className="col-lg-4">
                 <div className="d-flex h-100">
-                  <AssetInfoBox title={queue.title} subtitle={queue.subtitle} />
+                  <AssetInfoBox title={queue.title} subtitle={queue.subtitle} image={queue.image} />
                 </div>
               </div>
             ))}

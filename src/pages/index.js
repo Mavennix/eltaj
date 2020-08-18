@@ -29,8 +29,8 @@ const IndexPage = () => (
               <div className="col-md-10">
                 <h1 className="mb-4">This is where the experience begins</h1>
                 <h6 className="text-muted">
-                  With Eltaj digital solutions, you create a seamless customer
-                  experience at each point of the customer journey.
+                  With Eltaj digital solution, you create a seamless customer
+                  experience at each touch point of your customer journey.
                 </h6>
               </div>
             </div>
@@ -61,12 +61,13 @@ const IndexPage = () => (
 
     <div className="container">
       <div className="row">
-        <div className="col-lg-8 mx-auto">
+        <div className="col-lg-10 mx-auto">
           <div className="px-lg-5 text-center my-5">
             <h3>The Enterprise Digital Transformation</h3>
-            <h6 className="text-muted">
-              With Eltaj digital solutions, you create a seamless customer
-              experience at each point of the customer journey.
+            <h6 className="text-muted">The Enterprise
+              Digital Transformation" should be "Deliver exceptional service
+              from online to your physical branches with smart digital
+              solutions.
             </h6>
           </div>
           <div className="row">

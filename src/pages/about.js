@@ -141,7 +141,7 @@ const about = () => {
       <div className="container text-center py-5">
         <h2 className="mb-4">
           The biggest asset a business can have is her
-          <span className="text-primary d-block">Customers.</span>
+          <span className="text-primary d-block">Customer.</span>
         </h2>
         <div className="row mb-5">
           <div className="col-lg-6 mx-auto">

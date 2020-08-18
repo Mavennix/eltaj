@@ -16,8 +16,8 @@ const CovidBanner = () => {
               <button className="btn btn-primary rounded-0">Learn more</button>
             </div>
           </div>
-          <div className="col-lg-6 col-md-5 order-lg-last order-first">
-            <img style={{ objectFit: "cover"}} src={CovidImg} alt="" width="100%" height="100%" />
+          <div className="col-lg-6 col-md-5 order-md-last order-first">
+            <img style={{ objectFit: "cover",  borderRadius: "50px"}} src={CovidImg} alt="" width="100%" height="100%" />
           </div>
         </div>
       </div>
