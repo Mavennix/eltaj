@@ -4,7 +4,7 @@ const footerMenu = [
     menuItems: [
       {
         text: "About us",
-        to: "/about-us",
+        to: "/about",
       },
       {
         text: "Career",
@@ -33,31 +33,31 @@ const footerMenu = [
     menuItems: [
       {
         text: "Queue Management",
-        to: "/about-us",
+        to: "/queue-management",
       },
       {
         text: "Customer Journey Management",
-        to: "/about-us",
+        to: "/customer-journey-management",
       },
       {
         text: "Customer Feedback",
-        to: "/about-us",
+        to: "/customer-feedback",
       },
       {
         text: "Business Intelligence",
-        to: "/about-us",
+        to: "/business-intelligence",
       },
       {
         text: "Virtual Queuing System",
-        to: "/about-us",
+        to: "/virtual-queuing-system",
       },
       {
         text: "Distributed Operations",
-        to: "/about-us",
+        to: "/distributed-operations",
       },
       {
         text: "Online Appointment Booking",
-        to: "/about-us",
+        to: "/online-appointment-booking",
       },
     ],
   },
@@ -66,19 +66,19 @@ const footerMenu = [
     menuItems: [
       {
         text: "Finance",
-        to: "/about-us",
+        to: "/finance",
       },
       {
         text: "Healthcare",
-        to: "/about-us",
+        to: "/healthcare",
       },
       {
         text: "Telecom",
-        to: "/about-us",
+        to: "/telecom",
       },
       {
         text: "Public Sector",
-        to: "/about-us",
+        to: "/public-sector",
       },
     ],
   },

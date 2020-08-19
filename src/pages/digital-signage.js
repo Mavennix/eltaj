@@ -57,7 +57,7 @@ const digitalSignage = () => (
                             <div className="col-md-9 mx-auto">
                                 <p className="text-muted mt-3">Every minute a customer spends interacting with your business is an opportunity to keep them delighted. Inform, educate and engage them with the right content to keep them coming back for more .</p>
 
-                                <p className="text-muted mt-3">The Eltaj digital solution allows you to inform customers of queue status, educate them with valuable content and promote your products and services.</p>
+                                <p className="text-muted mt-3">The ELTAJ digital solution allows you to inform customers of queue status, educate them with valuable content and promote your products and services.</p>
                             </div>
                         </Row>
                     </div>
@@ -69,7 +69,7 @@ const digitalSignage = () => (
             <section className="my-5 pt-5">
                 <Container>
                     {DigitalSignageFeatures.map((solo, index) => (
-                        <InfoSection textFirst={index % 2 === 0 ? true : false} image="">
+                        <InfoSection textFirst={index % 2 === 0 ? true : false} image={solo.image}>
                             <h2 className="mb-4">
                                 {solo.title}
                             </h2>

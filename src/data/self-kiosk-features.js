@@ -1,6 +1,11 @@
+import NoHassleImg from '../images/product-qmatic/no-hassle.png';
+import MattersToEnterprise from '../images/product-qmatic/matters-to-enterprise.png';
+import BenefitsOfKiosk from '../images/product-qmatic/benefits-of-kiosk.png'
+
 const SelfKioskFeatures = [
     {
         title: 'Customers complete transactions without a hassle.',
+        image: NoHassleImg,
         subTitle: '',
         features: [
             'Bill payment',
@@ -12,6 +17,7 @@ const SelfKioskFeatures = [
     {
         title: 'How it matters for your enterprise',
         subTitle: '',
+        image: MattersToEnterprise,
         features: [
             'Customer Biometrics: Capture customer’s photo and signature.',
             'Digital signage: Display targeted-ads and content to the right demographics on a queue.',
@@ -23,6 +29,7 @@ const SelfKioskFeatures = [
     {
         title: 'Main Benefits of the self service Kiosk',
         subTitle: '',
+        image: BenefitsOfKiosk,
         features: [
             'Promote customer retention.',
             'Improve customer experience.',

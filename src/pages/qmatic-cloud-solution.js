@@ -20,10 +20,10 @@ const QmaticCloudSolution = () => (
                             <div className="row">
                                 <div className="col-md-10">
                                     <h1 className="mb-4">
-                                        Qmatic SOLO
+                                    Qmatic Cloud solutions
                     </h1>
                                     <h6 className="text-muted">
-                                        The All In One Customer Journey Platform
+                                    Customer Experience as-a-service
                     </h6>
                                 </div>
                             </div>
@@ -53,7 +53,7 @@ const QmaticCloudSolution = () => (
                         </Row>
                         <Row>
                             <div className="col-md-9 mx-auto">
-                                <p className="text-muted mt-3">Thousands of businesses and enterprises in different industries are resulting in cloud-based softwares to deploy databases and manage workflow . With Eltaj’s cloud solutions your enterprise can create a seamless digital customer journey and manage business operations from the cloud with no installation or expertise required.</p>
+                                <p className="text-muted mt-3">Thousands of businesses and enterprises in different industries are resulting in cloud-based softwares to deploy databases and manage workflow . With ELTAJ’s cloud solutions your enterprise can create a seamless digital customer journey and manage business operations from the cloud with no installation or expertise required.</p>
                             </div>
                         </Row>
                     </div>
@@ -77,7 +77,7 @@ const QmaticCloudSolution = () => (
             <section className="my-5 pt-5">
                 <Container>
                     {QmaticCloudFeatures.map((solo, index) => (
-                        <InfoSection textFirst={index % 2 === 0 ? true : false} image="">
+                        <InfoSection textFirst={index % 2 === 0 ? true : false} image={solo.image}>
                             <h2 className="mb-4">
                                 {solo.title}
                             </h2>
