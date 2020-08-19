@@ -49,7 +49,7 @@ const Telecom = () => (
       <section className="my-5 pt-5">
         <Container>
           {TelecomData.map((solo, index) => (
-            <InfoSection textFirst={index % 2 === 0 ? false : true} image="">
+            <InfoSection textFirst={index % 2 === 0 ? false : true} image={solo.image}>
               <h2 className="mb-4">{solo.title}</h2>
 
               <h6 className="text-muted">{solo.subTitle}</h6>
