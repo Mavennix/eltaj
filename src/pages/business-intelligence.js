@@ -94,18 +94,15 @@ const BusinessIntelligence = () => (
       <section className="container my-5 pt-5">
         <InfoSection textFirst={false} image={MonitorPerformanceImg}>
           <h2 className="mb-4">
-            Monitor your overall business performance at a glance, In real-time
+            Monitor your overall business performance at a glance. In real-time.
           </h2>
           <h6 className="text-muted mb-3">
-            With the Qmatic Bi solution in action, you can monitor your overall
-            business performance at a glance. Just view, zoom and slide over
-            your mobile devices and desktop. You wouldn’t miss a bit of it and
-            every correction action you take will be accurate and timely.
+            With the Qmatic Bi solution in action, you can monitor your overall business performance at a glance. Just view, zoom and slide over your mobile devices and desktop. You wouldn’t miss a bit of it. And every correctional action you take will be accurate and timely.
           </h6>
           <div className="pt-3">
-            <EltajList text="Monitor your business performance on a customizable dashboard: From the counter, customer bookings, employees, transaction, you are in total control of your business interactions." />
-            <EltajList text="Gain total visibility into business performance in all branches with KPIs, and specific healthcare metrics." />
-            <EltajList text="Attend technical issues as they arise." />
+            <EltajList text="Monitor your business performance on a customizable dashboard: From the counter, customer bookings, employee interaction, etc., you are in total control of all your business interactions." />
+            <EltajList text="Gain total visibility into business performance in all branches with KPIs, and specific industry metrics. " />
+            <EltajList text="Attend to technical issues as they arise." />
           </div>
         </InfoSection>
       </section>
@@ -117,15 +114,12 @@ const BusinessIntelligence = () => (
             Analyse your business performance with report and analytics
           </h2>
           <h6 className="text-muted mb-3">
-            The Qmatic BI tool presents meaning reports and statistics on your
-            business performance across, zones, branches, departments. With its
-            intuitive and logical interface, you can measure your business
-            performance and make well-informed decisions. The tool empowers you:
+            The Qmatic BI tool presents meaningful reports and statistics on your business performance across zones, branches, and departments. With its intuitive and logical interface, you can measure your business performance and make well-informed decisions. The tool empowers you to:
           </h6>
           <div className="pt-3">
-            <EltajList text="Measure the efficiency of your branches with drag-and-drop data fields and point-and-click analytics." />
-            <EltajList text="Gain total visibility into business performance in all branches with KPIs, and specific healthcare metrics." />
-            <EltajList text="Empower your employees to make informed decisions at real-time with the web-based mobile business analytic." />
+            <EltajList text="Measure the efficiency of your branches with drag-and-drop data fields and point-and-click analytics.ck analytics." />
+            <EltajList text="Empower your employees to make informed decisions at real-time with the web-based mobile business analytics." />
+            <EltajList text="Analyze customer journey management data to pinpoint the most important business metrics and trends to improve customer experience" />
           </div>
         </InfoSection>
       </section>
@@ -134,14 +128,10 @@ const BusinessIntelligence = () => (
       <section className="container my-5 pt-5">
         <InfoSection textFirst={false} image={MonitorPerformanceImg}>
           <h2 className="mb-4">
-            Leverage on customer data to shape your business strategies and
-            impact profitability
+            Leverage on customer data to shape your business strategies and impact profitability:
           </h2>
           <h6 className="text-muted mb-3">
-            Leverage on the data mined from your business activities. With
-            customer data you can predict the projection of business, predict
-            future revenue and projection of your market. The orchestra enables
-            you to:
+            With customer data you can predict the projection of business, predict future revenue and projection of your market. The orchestra enables you to:
           </h6>
           <div className="pt-3">
             <EltajList text="Forecast your customer acquisition growth rate." />
@@ -155,16 +145,15 @@ const BusinessIntelligence = () => (
       <section className="container my-5 pt-5">
         <InfoSection textFirst={true} image={SmartBusinessImg}>
           <h2 className="mb-4">
-            MAIN BENEFITS OF THE SMART BUSINESS INTELLIGENCE
+          MAIN BENEFITS OF THE SMART BUSINESS INTELLIGENCE 
           </h2>
           <div className="pt-3">
-            <EltajList text="Insightful business decisions" />
-            <EltajList text="Flexible" />
-            <EltajList text="Improve data profitability" />
-            <EltajList text="Improve customer journey customer service" />
+            <EltajList text="Insightful business decisions . " />
+            <EltajList text="Improve data profitability." />
+            <EltajList text="Improve customer journey " />
             <EltajList text="Promote customer retention" />
             <EltajList text="Optimize customer journey" />
-            <EltajList text="Efficient marketing campaigns" />
+            <EltajList text="Make efficient marketing campaigns" />
           </div>
         </InfoSection>
       </section>

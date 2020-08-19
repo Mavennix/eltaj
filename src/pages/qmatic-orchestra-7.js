@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import LightTitleBox from '../components/light-title-box'
 import EltajImage from '../components/eltaj-image/eltaj-image'
-import HeroImg from "../images/online-appointment-booking/online-appointment-img.png"
+import HeroImg from "../images/product-qmatic/orchestra-7-hero.png"
 import QmaticLogo from '../images/qmatic-logo-2.svg'
 import { Row, Container } from 'react-bootstrap'
 import AssetInfoBox from '../components/asset-info-box/asset-info-box'
@@ -17,6 +17,7 @@ import FeatureBox from '../components/feature-box/feature-box'
 import SeamlessIntegration from '../images/landing-page/seamless-integration.svg'
 import BusinessDecision from '../data/business-decision'
 import QmaticImage from '../images/product-qmatic/qmatic.png'
+
 
 const QmaticOrchestra7 = () => (
     <div>
@@ -60,6 +61,20 @@ const QmaticOrchestra7 = () => (
                             <div className="col-md-9 mx-auto">
                                 <p className="text-muted mt-3">In today’s business world, it’s expedient that you understand your customer journey through your experience points. Customers today choose their path, engage and interact with different channels, shift preferences and take different routes to reach their destination. The Enterprise Orchestra 7 enables you to monitor these paths, discover trends and create a seamless experience for your customers to boost brand loyalty and increase revenue.</p>
                             </div>
+                        </Row>
+
+                        <Row className="py-5">
+                            <iframe
+                                src="https://www.youtube.com/embed/tgbNymZ7vqY"
+                                // title={videoTitle}
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                frameBorder="0"
+                                webkitallowfullscreen="true"
+                                mozallowfullscreen="true"
+                                allowFullScreen
+                                className="mx-auto"
+                                style={{width: '800px', height: '400px'}}
+                            />
                         </Row>
 
                         <button className="btn btn-primary rounded-0 text-center px-4 mt-3">
@@ -208,10 +223,10 @@ const QmaticOrchestra7 = () => (
                 <Container>
                     <InfoSection textFirst={false} image={QmaticImage}>
                         <h2 className="mb-4">
-                        MAIN BENEFIT OF QMATIC ORCHESTRA 7
+                            MAIN BENEFIT OF QMATIC ORCHESTRA 7
             </h2>
 
-                       
+
                         <div>
                             <EltajList text="Improve customer experience" />
                             <EltajList text="Strengthen customer relationship" />

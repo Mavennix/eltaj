@@ -20,7 +20,7 @@ const about = () => {
         className="d-flex align-items-center justify-content-center flex-column"
         style={{ backgroundImage: "radial-gradient( #FFFFFF, #CBCEFF)", minHeight: "50vh" }}
       >
-        <h3>About Eltaj</h3>
+        <h3>About ELTAJ</h3>
         <h5 className="text-primary">Home | About</h5>
       </div>
       <div className="container text-center">
@@ -78,7 +78,7 @@ const about = () => {
               <span className="text-primary">paradigm.</span>
             </h2>
             <h6 className="text-left mb-4 text-muted">
-              At Eltaj, we understand that the world is evolving and as it
+              At ELTAJ, we understand that the world is evolving and as it
               evolves, the customer behaviour also changes and enterprises have
               to adjust to that change to keep meeting customers needs and boost
               revenue.
@@ -141,7 +141,7 @@ const about = () => {
       <div className="container text-center py-5">
         <h2 className="mb-4">
           The biggest asset a business can have is her
-          <span className="text-primary d-block">Customers.</span>
+          <span className="text-primary d-block">Customer.</span>
         </h2>
         <div className="row mb-5">
           <div className="col-lg-6 mx-auto">

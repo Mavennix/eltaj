@@ -52,7 +52,7 @@ const distributedOperations = () => {
               activities are not controlled and managed properly.
             </h6>
             <h6 className="text-muted mb-3">
-              With Eltaj’s distributed operation solution, you can manage your
+              With ELTAJ’s distributed operation solution, you can manage your
               business operations from a centralised system and create a
               seamless customer journey across all branches.
             </h6>
@@ -66,10 +66,7 @@ const distributedOperations = () => {
               Install a customizable hub in all locations to a central server
             </h2>
             <h6 className="text-muted mb-3">
-              Visualise a clustered web of Qmatic components (Orchestra server,
-              Business intelligence) that allows you to seamlessly control and
-              manage a network of branches and ease the workflow with or without
-              high network bandwidth. 
+            Visualise  a clustered web of Qmatic components (Orchestra server, Business intelligence)  that allows you to seamlessly manage a network of branches and ease the workflow with or without high network bandwidth
             </h6>
             <h6 className="text-muted mb-3">
             That how the Qmatic hub works:

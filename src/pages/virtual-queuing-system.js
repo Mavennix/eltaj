@@ -54,7 +54,7 @@ const virtualQueuingSystem = () => {
               Nobody likes to stand long hours waiting in line to receive a
               service. It is a valid problem that makes businesses lose
               customers to competitors. With the world going virtual, queues can
-              also go virtual. With Eltaj’s virtual queuing system, customers
+              also go virtual. With ELTAJ’s virtual queuing system, customers
               schedule appointments online, wait in line remotely and receive
               quality service with little or no hassle.
             </h6>
@@ -85,7 +85,7 @@ const virtualQueuingSystem = () => {
             <h6 className="text-muted mb-3">
               Transform your branches into smart branches to monitor and manage
               customer behaviour while they wait to earn your service. With
-              Eltaj’s Business intelligence tool, you get real-time data on your
+              ELTAJ’s Business intelligence tool, you get real-time data on your
               service, customer wait time and customer behaviour.
             </h6>
             <div>

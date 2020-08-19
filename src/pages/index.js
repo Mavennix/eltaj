@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState, useEffect } from 'react';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import InfoBox from "../components/info-box/info-box"
@@ -9,16 +9,31 @@ import features from "../data/features"
 import FeatureBox from "../components/feature-box/feature-box"
 import ClientImages from "../data/client-images"
 import Client from "../components/clients"
+import CovidModal from "../components/covid-modal"
 
 // image import
 import HeroImg from "../images/landing-page/hero-img.png"
 import PrimaryDemoBanner from "../components/primary-demo-banner"
 import EltajImage from "../components/eltaj-image/eltaj-image"
 import RightArrowIcon from "../images/icons/arrow-right.svg"
-
-const IndexPage = () => (
+import Button from 'react-bootstrap/Button'
+const IndexPage = () => {
+  const [modalShow, setModalShow] = useState(false);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setModalShow(true);
+    }, 3000);
+    return () => clearTimeout(timer);
+  }, []);
+  return (
   <Layout>
     <SEO title="Home" />
+    {/* Covid Modal  */}
+    <CovidModal
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+      />
+    {/* Covid Modal End */}
 
     {/* hero section */}
     <section className="pb-5">
@@ -29,8 +44,7 @@ const IndexPage = () => (
               <div className="col-md-10">
                 <h1 className="mb-4">This is where the experience begins</h1>
                 <h6 className="text-muted">
-                  With Eltaj digital solutions, you create a seamless customer
-                  experience at each point of the customer journey.
+                  With ELTAJ digital solution, you create a seamless customer experience at each touch point of your customer journey.
                 </h6>
               </div>
             </div>
@@ -51,7 +65,7 @@ const IndexPage = () => (
     <section className="py-4" style={{ background: "#F7F7F7" }}>
       <div className="container">
         <h6 className="text-muted">
-          These companies are creating the best experience through Eltaj
+        These companies already trust ELTAJ to create the best experience for their customers. When will you?
         </h6>
         {ClientImages.map((client, index) => (
           <Client image={client.image} name={client.name} />
@@ -61,12 +75,13 @@ const IndexPage = () => (
 
     <div className="container">
       <div className="row">
-        <div className="col-lg-8 mx-auto">
+        <div className="col-lg-10 mx-auto">
           <div className="px-lg-5 text-center my-5">
             <h3>The Enterprise Digital Transformation</h3>
-            <h6 className="text-muted">
-              With Eltaj digital solutions, you create a seamless customer
-              experience at each point of the customer journey.
+            <h6 className="text-muted">The Enterprise
+              Digital Transformation" should be "Deliver exceptional service
+              from online to your physical branches with smart digital
+              solutions.
             </h6>
           </div>
           <div className="row">
@@ -119,6 +134,6 @@ const IndexPage = () => (
     </div>
     <PrimaryDemoBanner />
   </Layout>
-)
+)}
 
 export default IndexPage

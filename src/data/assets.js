@@ -1,10 +1,11 @@
 import SecurityImg from '../images/icons/security.svg'
 import ScalabilityImg from '../images/icons/scalability.svg'
 import FlexibilityImg from '../images/icons/flexibility.svg'
+import SupportImg from '../images/icons/support.svg'
 
 const assets = [
   {
-    image: "",
+    image: SupportImg,
     title: "Support",
     subtitle: "We offer you 24/7 technical support on and after purchase.",
   },

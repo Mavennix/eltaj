@@ -59,7 +59,7 @@ const onlineAppointmentBooking = () => {
               online solution.
             </h6>
             <h6 className="text-muted mb-3">
-              With Eltaj’s online appointment booking software, a customer
+              With ELTAJ’s online appointment booking software, a customer
               proceeds to book an appointment on your website or app before
               visiting your branches to receive a service.
             </h6>

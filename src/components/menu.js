@@ -29,34 +29,34 @@ const Menu = () => (
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto mr-3">
-          <Nav.Link><Link to="/" style={style} activeStyle={activeStyle}>Home</Link></Nav.Link>
-          <Nav.Link><Link to="/about" style={style} activeStyle={activeStyle}>About</Link></Nav.Link>
+          <Nav.Link as={Link} to="/" style={style} activeStyle={activeStyle}>Home</Nav.Link>
+          <Nav.Link as={Link} to="/about" style={style} activeStyle={activeStyle}>About</Nav.Link>
           <NavDropdown title="Solutions" id="solutions-nav-dropdown">
-            <NavDropdown.Item><Link to="/queue-management" style={style}>Queue Management</Link></NavDropdown.Item>
-            <NavDropdown.Item><Link to="/customer-journey-management" style={style}>Customer Journey Management</Link></NavDropdown.Item>
-            <NavDropdown.Item><Link to="/customer-feedback" style={style}>Customer Feedback</Link></NavDropdown.Item>
-            <NavDropdown.Item><Link to="/business-intelligence" style={style}>Business Intelligence</Link></NavDropdown.Item>
-            <NavDropdown.Item><Link to="/virtual-queuing-system" style={style}>Virtual Queuing System</Link></NavDropdown.Item>
-            <NavDropdown.Item><Link to="/distributed-operations" style={style}>Distributed Operations</Link></NavDropdown.Item>
-            <NavDropdown.Item><Link to="/online-appointment-booking" style={style}>Online Appointment Booking</Link></NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/queue-management" style={style}>Queue Management</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/customer-journey-management" style={style}>Customer Journey Management</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/customer-feedback" style={style}>Customer Feedback</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/business-intelligence" style={style}>Business Intelligence</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/virtual-queuing-system" style={style}>Virtual Queuing System</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/distributed-operations" style={style}>Distributed Operations</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/online-appointment-booking" style={style}>Online Appointment Booking</NavDropdown.Item>
 
 
           </NavDropdown>
           <NavDropdown title="Products" id="products-nav-dropdown">
-            <NavDropdown.Item><Link to="/qmatic-orchestra-7" style={style}>Enterprise: Qmatic Orchestra 7</Link></NavDropdown.Item>
-            <NavDropdown.Item><Link to="/qmatic-solo" style={style}>Single Location: Solo</Link></NavDropdown.Item>
-            <NavDropdown.Item><Link to="/qmatic-cloud-solution" style={style}>Qmatic Cloud Solution</Link></NavDropdown.Item>
-            <NavDropdown.Item><Link to="/self-service-kiosk" style={style}>Self Service Kiosk</Link></NavDropdown.Item>
-            <NavDropdown.Item><Link to="/digital-signage" style={style}>Digital Signage</Link></NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/qmatic-orchestra-7" style={style}>Enterprise: Qmatic Orchestra 7</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/qmatic-solo" style={style}>Single Location: Solo</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/qmatic-cloud-solution" style={style}>Qmatic Cloud Solution</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/self-service-kiosk" style={style}>Self Service Kiosk</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/digital-signage" style={style}>Digital Signage</NavDropdown.Item>
           </NavDropdown>
 
 
           <NavDropdown title="Industries" id="industries-nav-dropdown">
-            <NavDropdown.Item><Link to="/finance" style={style}>Finance</Link></NavDropdown.Item>
-            <NavDropdown.Item><Link to="/healthcare" style={style}>Health Care</Link></NavDropdown.Item>
-            <NavDropdown.Item><Link to="/telecom" style={style}>Telecom</Link></NavDropdown.Item>
-            <NavDropdown.Item><Link to="/public-sector" style={style}>Public Sector</Link></NavDropdown.Item>
-            <NavDropdown.Item><Link to="/retail" style={style}>Retail</Link></NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/finance" style={style}>Finance</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/healthcare" style={style}>Health Care</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/telecom" style={style}>Telecom</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/public-sector" style={style}>Public Sector</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="/retail" style={style}>Retail</NavDropdown.Item>
           </NavDropdown>
         </Nav>
         <Nav>
