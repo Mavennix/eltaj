@@ -54,7 +54,7 @@ const SelfServiceKiosk = () => (
                         </Row>
                         <Row>
                             <div className="col-md-9 mx-auto">
-                                <p className="text-muted mt-3">You would agree that we all love to get the best service, anytime and wherever we want it. With evolving technology, customers can get the service they want with utmost convenience. With Eltaj’s digital kiosks installed in your branches, customers can access your services without having to interact with your staff, reducing congestion and, in turn, increasing staff efficiency.</p>
+                                <p className="text-muted mt-3">You would agree that we all love to get the best service, anytime and wherever we want it. With evolving technology, customers can get the service they want with utmost convenience. With ELTAJ’s digital kiosks installed in your branches, customers can access your services without having to interact with your staff, reducing congestion and, in turn, increasing staff efficiency.</p>
                             </div>
                         </Row>
                     </div>
@@ -66,7 +66,7 @@ const SelfServiceKiosk = () => (
             <section className="my-5 pt-5">
                 <Container>
                     {SelfKioskFeatures.map((solo, index) => (
-                        <InfoSection textFirst={index % 2 === 0 ? false : true} image="">
+                        <InfoSection textFirst={index % 2 === 0 ? true : false} image={solo.image}>
                             <h2 className="mb-4">
                                 {solo.title}
                             </h2>

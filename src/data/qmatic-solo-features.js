@@ -1,7 +1,14 @@
+import CustomerQueueProductiveImg from '../images/product-qmatic/customer-queue-productive.png';
+import TrackImg from '../images/product-qmatic/track.png';
+import SmilingCustomers from '../images/product-qmatic/smiling-customer.png';
+import SuitsBusiness from '../images/product-qmatic/suits-business.png';
+import BenefitsQmaticSolo from '../images/product-qmatic/benefits-qmatic-solo.png'
+
 const QmaticSoloFeatures = [
     {
         title: 'Provide relevant information to make customer queue productive',
         subTitle: 'With the single location solo connected to your LCD screen, you can provide relevant information to customers on the queue to reduce perceived wait time.',
+        image: CustomerQueueProductiveImg,
         features: [
             'Inform customers on the real-time queue status.',
             'Upsell your product and services by displaying targeted-ads to the right customer segment.',
@@ -10,6 +17,7 @@ const QmaticSoloFeatures = [
     },
     {
         title: 'Notify customer about their turn while they queue remotely',
+        image: SmilingCustomers,
         subTitle: 'With the Solo mobile you can inform customers about their queue status while they enjoy wait time productively. Thus, reducing the length of the queue and making employees work efficiently.',
         features: [
             'Customers provide contact information in a self-check-in kiosk',
@@ -19,6 +27,7 @@ const QmaticSoloFeatures = [
     },
     {
         title: 'Manage your branches from a centralised location',
+        image: TrackImg,
         subTitle: 'With qmatic solo integrated with the management portal, you can monitor customer flow in your head office. The integration will help you:',
         features: [
             'Handle customer flow management data on a web-based app',
@@ -28,7 +37,8 @@ const QmaticSoloFeatures = [
         ]
     },
     {
-        title: 'WHICHEVER SUITS YOUR BUSINESS NEEDS WORK EFFICIENTLY',
+        title: 'Whichever Suits Your Business Needs',
+        image: SuitsBusiness,
         subTitle: 'The Single location solo is designed to suit your business needs and preferences. Which either works for you ; cloud based, mobile app or on-premise .',
         features: [
             'A stand alone',
@@ -40,6 +50,7 @@ const QmaticSoloFeatures = [
     },
     {
         title: 'MAIN BENEFITS OF THE QMATIC SOLO.',
+        image: BenefitsQmaticSolo,
         subTitle: '',
         features: [
             'Centralised customer flow data',

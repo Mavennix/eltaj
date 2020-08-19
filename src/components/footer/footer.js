@@ -12,7 +12,7 @@ const Footer = () => {
             <ul className="nav flex-column">
               {menu.menuItems.map(menuItem => (
                 <li class="nav-item">
-                  <Link class="nav-link px-0 py-1 text-muted" href="#">
+                  <Link class="nav-link px-0 py-1 text-muted" to={menuItem.to}>
                     {menuItem.text}
                   </Link>
                 </li>

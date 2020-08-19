@@ -66,7 +66,7 @@ const QmaticSolo = () => (
             <section className="my-5 pt-5">
                 <Container>
                     {QmaticSoloFeatures.map((solo, index) => (
-                        <InfoSection textFirst={index % 2 === 0 ? false : true} image="">
+                        <InfoSection textFirst={index % 2 === 0 ? true : false} image={solo.image}>
                             <h2 className="mb-4">
                                 {solo.title}
             </h2>
