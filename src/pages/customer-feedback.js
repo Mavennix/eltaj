@@ -1,9 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
-import HeroImg from "../images/queue-management/queue-management-hero.jpg"
-import AboutImage from "../images/queue-management/about-image.jpg"
-import QMSBenefitImage from "../images/queue-management/qms-benefit.jpg"
-import BusinessActionImage from "../images/queue-management/business-action.jpg"
+import HeroImg from "../images/customer-feedback/hero.png"
+import AboutImage from "../images/customer-feedback/about-customer-feedback.png"
+import QMSBenefitImage from "../images/customer-feedback/benefit-customer-feedback.png"
+import BusinessActionImage from "../images/customer-feedback/customer-feedback.png"
+import VoiceOfCustomerImg from '../images/customer-feedback/voice-of-customer.png'
 import EltajImage from "../components/eltaj-image/eltaj-image"
 import LightTitleBox from "../components/light-title-box"
 import InfoSection from "../components/info-section/info-section"
@@ -59,9 +60,7 @@ const customerFeedback = () => {
             </h6>
             <h6 className="text-muted mb-3">
               {" "}
-              Customer feedback gives you great insight into what your customers
-              have to say about your service. Which helps you improve your
-              service, thereby increasing customer loyalty and driving revenue.
+              Customer feedback gives you great insight into what your customers have to say about your services. Which helps  you improve your service, thereby,  increasing customer loyalty and driving revenue.
             </h6>
           </InfoSection>
         </section>
@@ -87,14 +86,11 @@ const customerFeedback = () => {
 
         {/*  */}
         <section className="container my-5">
-          <InfoSection textFirst={false} image={AboutImage}>
-            <h2 className="mb-4">Acting On Voice Of cCstomer (VOC)</h2>
+          <InfoSection textFirst={false} image={VoiceOfCustomerImg}>
+            <h2 className="mb-4">Acting On Voice Of Customer (VOC)</h2>
             <h6 className="text-muted mb-3">
-              The VOC programs, you gather customer feedback data from surveys
-              or, analyze the data to understand what the feedback says about
-              your business, learn how it affects each touchpoint in the
-              customer journey, and drive new ideas to optimize the customer
-              experience.
+            Acting on voice of customer (voc): With  VOC programs,  you  gather customer feedback data from surveys, analyze the data to
+understand what the feedback says about your business,  learn how it affects each touchpoint in the customer journey, and drive new ideas to optimize the customer experience.
             </h6>
             <div>
               <EltajList text="Collect customer feedback and organise the data." />

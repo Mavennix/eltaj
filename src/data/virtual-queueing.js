@@ -11,7 +11,7 @@ const virtualQueueing = [
     image: "",
     title: "Mobile Ticketing",
     subtitle:
-      "customer scan QR codes to get virtual tickets, queue remotely and receive a real-time update on their position on the queue.",
+      "Customers scan QR codes to get  virtual tickets, queue remotely and receive a real-time update on their position on the queue.",
   },
   {
     image: "",

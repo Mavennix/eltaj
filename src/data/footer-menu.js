@@ -1,6 +1,6 @@
 const footerMenu = [
   {
-    title: "Eltaj",
+    title: "ELTAJ",
     menuItems: [
       {
         text: "About us",

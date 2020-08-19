@@ -6,10 +6,13 @@ import LightTitleBox from "../components/light-title-box"
 import PrimaryDemoBanner from "../components/primary-demo-banner"
 
 
-import HeroImg from "../images/queue-management/queue-management-hero.jpg"
-import AboutImage from "../images/queue-management/about-image.jpg"
+import HeroImg from "../images/customer-journey-management/hero.png"
+import AboutImage from "../images/customer-journey-management/customer-journey.png"
 import QMSBenefitImage from "../images/queue-management/qms-benefit.jpg"
-import BusinessActionImage from "../images/queue-management/business-action.jpg"
+import BusinessActionImage from "../images/customer-journey-management/customer-touch-point.png"
+import CustomerInteration from "../images/customer-journey-management/customer-interaction.png"
+import OptimizeExperienceImg  from '../images/customer-journey-management/optimize-experience.png'
+import BenfitCustomerExperience from '../images/customer-journey-management/benefit-customer-journey.png'
 import EltajImage from "../components/eltaj-image/eltaj-image"
 
 const customerJourneyManagement = () => {
@@ -74,7 +77,7 @@ const customerJourneyManagement = () => {
               “how?”
             </h2>
             <h6 className="text-muted mb-3">
-              With Eltaj’s customer journey management solution, you can
+              With ELTAJ’s customer journey management solution, you can
               Identify how each customer segment interacts with your business,
               the channels with which they interact with your personnels and
               their behaviour during the interactions. The customer management
@@ -83,22 +86,21 @@ const customerJourneyManagement = () => {
             <div>
               <EltajList text="See how customer switch between devices (mobile, desktop)" />
               <EltajList text="Modify channel preference to monitor customer channel behaviour for each customer segment." />
-              <EltajList text="Use surveys and forms to collect data on customer interact with employees" />
+              <EltajList text="Use surveys and forms to collect data on customers' interaction with employees." />
             </div>
           </InfoSection>
         </section>
 
         {/* Business Inteligence */}
         <section className="container my-5">
-          <InfoSection textFirst={false} image={AboutImage}>
+          <InfoSection textFirst={false} image={CustomerInteration}>
             <h2 className="mb-4">
-              Measure the customer interaction to understand how it affects the
-              overall journey
+            Measure the customer data from their interactions and process thousands of events at real-time to see how the interaction will affect the end-to-end journey. With Eltaj system, you...
             </h2>
             <h6 className="text-muted mb-3">
               Measure the customer data from their interactions, process
               hundreds of thousands of events at real-time to see how the
-              interaction will affect the end-to-end journey. With Eltaj system,
+              interaction will affect the end-to-end journey. With ELTAJ’s system,
               we
             </h6>
             <div>
@@ -113,7 +115,7 @@ const customerJourneyManagement = () => {
 
         {/* */}
         <section className="container my-5">
-          <InfoSection textFirst={true} image={QMSBenefitImage}>
+          <InfoSection textFirst={true} image={OptimizeExperienceImg}>
             <h2 className="mb-4">
               Make the most use of processed data to optimize the customer
               experience.
@@ -131,7 +133,7 @@ const customerJourneyManagement = () => {
         </section>
         {/*  */}
         <section className="container my-5">
-          <InfoSection textFirst={false} image={QMSBenefitImage}>
+          <InfoSection textFirst={false} image={BenfitCustomerExperience}>
             <h2 className="mb-4">
               Main benefit of customer journey management
             </h2>

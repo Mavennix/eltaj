@@ -52,16 +52,11 @@ const queueManagement = () => {
         <section className="container">
           <InfoSection textFirst={false} image={AboutImage}>
             <h6 className="text-muted mb-3">
-              As an enterprise, you want your customers to be happy with your
-              services. You know, to promote brand loyalty and in turn improve
-              sales and boost your revenue.
+              As an enterprise, you want your customers to be happy with your services. You know,  to promote brand loyalty and in turn improve sales and boost your revenue.
             </h6>
             <h6 className="text-muted mb-3">
               {" "}
-              With the Qmatic Solo, you can manage customer flow, streamline
-              their customer journey and maintain social distancing rules while
-              at it. And, obeying Government directives on COVID-19 while
-              contributing your quota in flattening the curve.
+              With the Qmatic Solo, you can manage customer flow, streamline their customer journey and maintain social distancing rules. Thereby, obeying Government's directives on COVID-19 while contributing your quota in flattening the curve.
             </h6>
             <div>
               <EltajList text="74%- Customer go to competitors to avoid long queue" />

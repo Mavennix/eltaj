@@ -29,8 +29,7 @@ const IndexPage = () => (
               <div className="col-md-10">
                 <h1 className="mb-4">This is where the experience begins</h1>
                 <h6 className="text-muted">
-                  With Eltaj digital solution, you create a seamless customer
-                  experience at each touch point of your customer journey.
+                  With ELTAJ digital solution, you create a seamless customer experience at each touch point of your customer journey.
                 </h6>
               </div>
             </div>
@@ -51,7 +50,7 @@ const IndexPage = () => (
     <section className="py-4" style={{ background: "#F7F7F7" }}>
       <div className="container">
         <h6 className="text-muted">
-          These companies are creating the best experience through Eltaj
+        These companies already trust ELTAJ to create the best experience for their customers. When will you?
         </h6>
         {ClientImages.map((client, index) => (
           <Client image={client.image} name={client.name} />

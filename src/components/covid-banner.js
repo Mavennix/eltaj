@@ -7,7 +7,7 @@ const CovidBanner = () => {
       <div className="bg-light" style={{ borderRadius: "50px" }}>
         <div className="row">
           <div className="col-lg-6 col-md-7 p-5 d-flex flex-column justify-content-between">
-            <h3 className="text-primary">Eltaj’s Response to COVID-19</h3>
+            <h3 className="text-primary">ELTAJ’s Response to COVID-19</h3>
             <h6 className="text-muted">
               ELTAJ is helping enterprises transform their customer journey
               during COVID-19 Pandemic and beyond.

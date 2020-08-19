@@ -10,7 +10,7 @@ const SecondaryDemoBanner = () => {
           <div className="col-lg-8">
             <h6 className="m-0">Schedule a free consultation</h6>
             <h2>
-              Do you want to know if Eltaj solution is a good fit for your
+              Do you want to know if ELTAJ solution is a good fit for your
               business needs?
             </h2>
           </div>
