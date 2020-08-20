@@ -8,7 +8,7 @@ import Nav from "react-bootstrap/Nav"
 import EltajLogo from "../images/eltajlogo.svg"
 
 const style = {
-  color: '#17161A',
+  color: '#7e7e7e',
   textDecoration: 'none'
 }
 

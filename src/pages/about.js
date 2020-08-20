@@ -123,7 +123,7 @@ const about = () => {
             <div className="row">
               {leanMoreOptions.map(option => (
                 <div className="col-lg-6 mb-5 text-left">
-                  <div className="rounded shadow p-3 d-flex flex-column align-items-start justify-content-between h-100">
+                  <div className="rounded blue-hover cursor shadow p-3 d-flex flex-column align-items-start justify-content-between h-100">
                     <h4 className>{option.text}</h4>
                     <img src={RightArrowIcon} alt="" />
                   </div>
