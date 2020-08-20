@@ -7,7 +7,6 @@ import EltajList from '../components/eltaj-list'
 import { Row, Container } from 'react-bootstrap'
 import InfoSection from '../components/info-section/info-section'
 import Layout from '../components/layout'
-import QmaticCloudFeatures from '../data/qmatic-cloud-feature'
 import SelfKioskFeatures from '../data/self-kiosk-features'
 
 const SelfServiceKiosk = () => (
@@ -33,7 +32,7 @@ const SelfServiceKiosk = () => (
                 </button>
 
                             <h6 className="text-muted pt-3">Powered by</h6>
-                            <img src={QmaticLogo} />
+                            <img src={QmaticLogo} alt="Qmatic logo" />
                         </div>
 
                         <div className="col-md-6">

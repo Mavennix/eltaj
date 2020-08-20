@@ -35,6 +35,10 @@ body {
   
 }
 
+button:focus {
+  outline: none !important;
+}
+
 @import "~bootstrap/scss/bootstrap.scss";
 
 .red-hr {
