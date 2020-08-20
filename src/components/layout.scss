@@ -21,22 +21,49 @@ body {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
   }
 
-  .modal-content, .modal-header{
+  .modal-content,
+  .modal-header {
     background-color: transparent;
     border: none;
   }
-  .modal-header{
-    .close{
+  .modal-header {
+    .close {
       color: #fff;
       font-weight: normal;
       opacity: 1;
     }
   }
-  
 }
 
 button:focus {
   outline: none !important;
+}
+
+.blue-hover {
+  &:hover {
+    background: #000080;
+    color: #fff;
+  }
+}
+
+.dropdown-item {
+  font-size: 14px !important;
+  padding: 10px 20px !important;
+  color: #8f8f8f !important;
+  &:hover {
+    color: #fff !important;
+    background-color: #000080 !important;
+  }
+
+  &:focus {
+    color: #fff !important;
+    background-color: #000080 !important;
+  }
+}
+
+
+.cursor {
+  cursor: pointer;
 }
 
 @import "~bootstrap/scss/bootstrap.scss";
