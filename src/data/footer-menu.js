@@ -8,15 +8,15 @@ const footerMenu = [
       },
       {
         text: "Career",
-        to: "/about-us",
+        to: "/career",
       },
       {
         text: "Blog",
-        to: "/about-us",
+        to: "",
       },
       {
         text: "Partners",
-        to: "/about-us",
+        to: "/partners",
       },
       {
         text: "Terms and Condition",
