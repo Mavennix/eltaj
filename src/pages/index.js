@@ -78,10 +78,7 @@ const IndexPage = () => {
         <div className="col-lg-10 mx-auto">
           <div className="px-lg-5 text-center my-5">
             <h3>The Enterprise Digital Transformation</h3>
-            <h6 className="text-muted">The Enterprise
-              Digital Transformation" should be "Deliver exceptional service
-              from online to your physical branches with smart digital
-              solutions.
+            <h6 className="text-muted">Deliver exceptional service from online to your physical branches with smart digital solutions.
             </h6>
           </div>
           <div className="row">
