@@ -60,9 +60,11 @@ const Menu = () => (
           </NavDropdown>
         </Nav>
         <Nav>
+          <Link to="/book-demo">
           <button className="btn btn-outline-primary rounded-0 text-center px-4">
             Book a free demo
           </button>
+          </Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
