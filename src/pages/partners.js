@@ -32,7 +32,6 @@ const Partners = () => {
               />
 
               <h6 className="font-weight-bold pt-4">QMATIC</h6>
-
               <p className="text-muted pt-3 small">
                 QMATIC is the global leader in customer journey management. We
                 invented the concept in 1981 and have remained committed to
@@ -43,7 +42,6 @@ const Partners = () => {
             </CardWithBoxShadow>
            </div>
           </div>
-
           <div className="col-md-5 mh-100">
             <div className="d-flex h-100">
             <CardWithBoxShadow className="h-100">
