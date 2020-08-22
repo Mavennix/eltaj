@@ -41,7 +41,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="d-flex justify-content-between my-5">
+      <div className="d-flex flex-column-reverse flex-lg-row justify-content-between my-5 text-center text-lg-left">
         <div className="text-muted d-flex flex-column">
           <small>
             Copyright © 2016 - 2020. ELTAJ Solutions Ltd.
@@ -49,7 +49,7 @@ const Footer = () => {
           <small>All rights reserved.</small>
         </div>
         <div>
-          <img src={QmaticLogo} alt="" height="30"/>
+          <img className="mb-4 mb-lg-0" src={QmaticLogo} alt="" height="30"/>
         </div>
       </div>
     </div>

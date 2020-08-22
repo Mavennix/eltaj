@@ -13,6 +13,7 @@ import AssetInfoBox from "../components/asset-info-box/asset-info-box"
 import virtualQueueing from "../data/virtual-queueing"
 import PrimaryDemoBanner from "../components/primary-demo-banner"
 import EltajList from "../components/eltaj-list"
+import BookDemoBtn from "../components/book-demo-btn"
 
 const onlineAppointmentBooking = () => {
   return (
@@ -29,8 +30,8 @@ const onlineAppointmentBooking = () => {
                       <LightTitleBox text="ONLINE APPOINTMENT BOOKING" />
                     </div>
                     <h1 className="mb-4">
-                      Where the queuing problem stops. The solution starts
-                      online.
+                      Where The Queuing Problem Stops. The Solution Starts
+                      Online.
                     </h1>
                     <h6 className="text-muted">
                       Customers can book appointments online before proceeding
@@ -38,9 +39,7 @@ const onlineAppointmentBooking = () => {
                     </h6>
                   </div>
                 </div>
-                <button className="btn btn-primary rounded-0 text-center px-4 mt-5">
-                  Book a free demo
-                </button>
+                <BookDemoBtn/>
               </div>
 
               <div className="col-md-6">

@@ -2,7 +2,7 @@ import React from "react"
 
 const InfoSection = props => {
   return (
-    <div className="row align-items-start">
+    <div className="row align-items-start my-5 py-5">
       <div
         className={`col-md-6 text-md-left text-center mb-3 order-first  ${
           props.textFirst ? "order-md-last" : "order-md-first"

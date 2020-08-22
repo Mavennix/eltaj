@@ -18,6 +18,7 @@ import EltajImage from "../components/eltaj-image/eltaj-image"
 import RightArrowIcon from "../images/icons/arrow-right.svg"
 import Button from 'react-bootstrap/Button'
 import { Row } from 'react-bootstrap';
+import BookDemoBtn from '../components/book-demo-btn';
 const IndexPage = () => {
   const [modalShow, setModalShow] = useState(false);
   useEffect(() => {
@@ -40,21 +41,19 @@ const IndexPage = () => {
       <section className="pb-5">
         <div className="container py-5 my-5">
           <div className="row">
-            <div className="col-md-6 my-auto pb-md-0 pb-5">
+            <div className="col-md-7 my-auto pb-md-0 pb-5">
               <div className="row">
                 <div className="col-md-10">
-                  <h1 className="mb-4">This is where the experience begins</h1>
+                  <h1 className="mb-4 display-4 font-weight-bold">This Is Where The Experience Begins</h1>
                   <h6 className="text-muted">
                     With ELTAJ digital solution, you create a seamless customer experience at each touch point of your customer journey.
                 </h6>
                 </div>
               </div>
-              <button className="btn btn-primary rounded-0 text-center px-4 mt-5">
-                Book a free demo
-            </button>
+              <BookDemoBtn/>
             </div>
 
-            <div className="col-md-6">
+            <div className="col-md-5">
               <EltajImage image={HeroImg} isImageRight={true} />
               {/* <img src={HeroImg} alt="Hero" className="img-fluid" /> */}
             </div>
@@ -101,9 +100,7 @@ const IndexPage = () => {
           </div>
         </div>
         <div className="text-center">
-          <button className="btn btn-primary rounded-0 text-center px-4">
-            Book a free demo
-        </button>
+          <BookDemoBtn/>
         </div>
       </div>
       <div className="container my-5 pb-4">

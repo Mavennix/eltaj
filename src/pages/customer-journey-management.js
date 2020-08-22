@@ -14,6 +14,7 @@ import CustomerInteration from "../images/customer-journey-management/customer-i
 import OptimizeExperienceImg  from '../images/customer-journey-management/optimize-experience.png'
 import BenfitCustomerExperience from '../images/customer-journey-management/benefit-customer-journey.png'
 import EltajImage from "../components/eltaj-image/eltaj-image"
+import BookDemoBtn from "../components/book-demo-btn"
 
 const customerJourneyManagement = () => {
   return (
@@ -38,9 +39,7 @@ const customerJourneyManagement = () => {
                     </h6>
                   </div>
                 </div>
-                <button className="btn btn-primary rounded-0 text-center px-4 mt-5">
-                  Book a free demo
-                </button>
+                <BookDemoBtn/>
               </div>
 
               <div className="col-md-6">

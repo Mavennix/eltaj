@@ -9,6 +9,7 @@ import Layout from "../components/layout"
 import FinanceData from "../data/finance-data"
 import LightTitleBox from "../components/light-title-box"
 import PublicSectorData from "../data/public-sector-data"
+import BookDemoBtn from "../components/book-demo-btn"
 
 const PublicSection = () => (
   <div>
@@ -24,17 +25,14 @@ const PublicSection = () => (
                     <LightTitleBox text="Public Sector" />
                   </div>
                   <h1 className="mb-4">
-                    Transform your bank into smart digital branches
+                  Exhilarating Service Experience For Citizens
                   </h1>
                   <h6 className="text-muted">
-                    Deliver a consistent banking experience for customers with
-                    smart digital branch transformation
+                  Improve citizens’ experience program with smart digital transformation.
                   </h6>
                 </div>
               </div>
-              <button className="btn btn-primary rounded-0 text-center px-4 mt-5">
-                Book a free demo
-              </button>
+              <BookDemoBtn/>
             </div>
 
             <div className="col-md-6">

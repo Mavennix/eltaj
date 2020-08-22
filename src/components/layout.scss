@@ -43,6 +43,9 @@ button:focus {
   &:hover {
     background: #000080;
     color: #fff;
+    background-image: url(../images/hover-img/hover-img-1.svg), url(../images/hover-img/hover-img-2.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right bottom;
   }
 }
 

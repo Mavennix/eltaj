@@ -68,7 +68,7 @@ const about = () => {
 
         {/* What We Offer */}
         <div className="row my-5 py-5">
-          <div className="col-lg-6">
+          <div className="col-lg-6 mt-3 mt-lg-0">
             <div className="text-left mb-3">
               {" "}
               <LightTitleBox text="WHAT WE OFFER" />
@@ -100,15 +100,15 @@ const about = () => {
 
         {/* Our Solutions*/}
         <div className="row my-5 py-5">
-          <div className="col-lg-6">
+          <div className="col-lg-6 mt-3 mt-lg-0">
             <div className="d-flex h-100 w-100">
             <EltajImage image={SolutionTailoredImg} isImageRight={false}/>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 mt-3 mt-lg-0">
             <div className="text-left mb-3">
               {" "}
-              <LightTitleBox text="WHAT WE OFFER" />
+              <LightTitleBox text="OUR SOLUTIONS" />
             </div>
             <h2 className="mb-5 text-left">
               Our Solutions Are Tailored To Your Specific Industry

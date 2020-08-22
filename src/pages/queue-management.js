@@ -12,6 +12,7 @@ import AssetInfoBox from "../components/asset-info-box/asset-info-box"
 import virtualQueueing from "../data/virtual-queueing"
 import PrimaryDemoBanner from "../components/primary-demo-banner"
 import EltajList from "../components/eltaj-list"
+import BookDemoBtn from "../components/book-demo-btn"
 
 const queueManagement = () => {
   return (
@@ -36,9 +37,7 @@ const queueManagement = () => {
                     </h6>
                   </div>
                 </div>
-                <button className="btn btn-primary rounded-0 text-center px-4 mt-5">
-                  Book a free demo
-                </button>
+                <BookDemoBtn/>
               </div>
 
               <div className="col-md-6">

@@ -25,7 +25,7 @@ const Menu = () => (
       bg="white"
       variant="light"
     >
-      <Navbar.Brand href="#home"><img src={EltajLogo} alt=""/></Navbar.Brand>
+      <Navbar.Brand as={Link} to="/"><img src={EltajLogo} alt=""/></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto mr-3">
@@ -60,10 +60,8 @@ const Menu = () => (
           </NavDropdown>
         </Nav>
         <Nav>
-          <Link to="/book-demo">
-          <button className="btn btn-outline-primary rounded-0 text-center px-4">
+          <Link className="btn btn-outline-primary rounded-0 text-center px-4" to="/book-demo">
             Book a free demo
-          </button>
           </Link>
         </Nav>
       </Navbar.Collapse>

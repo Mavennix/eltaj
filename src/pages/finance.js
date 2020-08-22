@@ -8,6 +8,7 @@ import InfoSection from "../components/info-section/info-section"
 import Layout from "../components/layout"
 import FinanceData from "../data/finance-data"
 import LightTitleBox from "../components/light-title-box"
+import BookDemoBtn from "../components/book-demo-btn"
 
 const Finance = () => (
   <div>
@@ -23,7 +24,7 @@ const Finance = () => (
                     <LightTitleBox text="Finance" />
                   </div>
                   <h1 className="mb-4">
-                    Transform your bank into smart digital branches
+                    Transform Your Bank Into Smart Digital Branches
                   </h1>
                   <h6 className="text-muted">
                     Deliver a consistent banking experience for customers with
@@ -31,9 +32,7 @@ const Finance = () => (
                   </h6>
                 </div>
               </div>
-              <button className="btn btn-primary rounded-0 text-center px-4 mt-5">
-                Book a free demo
-              </button>
+              <BookDemoBtn/>
             </div>
 
             <div className="col-md-6">

@@ -8,6 +8,7 @@ import InfoSection from "../components/info-section/info-section"
 import Layout from "../components/layout"
 import LightTitleBox from "../components/light-title-box"
 import TelecomData from "../data/telecom-data"
+import BookDemoBtn from "../components/book-demo-btn"
 
 const Telecom = () => (
   <div>
@@ -23,16 +24,14 @@ const Telecom = () => (
                     <LightTitleBox text="Telecom" />
                   </div>
                   <h1 className="mb-4">
-                    Transform your Stores into smart digital branches
+                    Transform Your Stores Into Smart Digital Branches
                   </h1>
                   <h6 className="text-muted">
                     Keep pace with digital demands of customers
                   </h6>
                 </div>
               </div>
-              <button className="btn btn-primary rounded-0 text-center px-4 mt-5">
-                Book a free demo
-              </button>
+              <BookDemoBtn/>
             </div>
 
             <div className="col-md-6">

@@ -13,6 +13,8 @@ import AssetInfoBox from "../components/asset-info-box/asset-info-box"
 import virtualQueueing from "../data/virtual-queueing"
 import PrimaryDemoBanner from "../components/primary-demo-banner"
 import EltajList from "../components/eltaj-list"
+import { Link } from "gatsby"
+import BookDemoBtn from "../components/book-demo-btn"
 
 const customerFeedback = () => {
   return (
@@ -29,7 +31,7 @@ const customerFeedback = () => {
                       <LightTitleBox text="CUSTOMER FEEDBACK" />
                     </div>
                     <h1 className="mb-4">
-                      Use customer feedback to improve your service
+                      Use Customer Feedback To Improve Your Service
                     </h1>
                     <h6 className="text-muted">
                       Customers are an integral part of your business growth.
@@ -37,9 +39,7 @@ const customerFeedback = () => {
                     </h6>
                   </div>
                 </div>
-                <button className="btn btn-primary rounded-0 text-center px-4 mt-5">
-                  Book a free demo
-                </button>
+                <BookDemoBtn/>
               </div>
 
               <div className="col-md-6">

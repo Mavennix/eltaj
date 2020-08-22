@@ -16,7 +16,7 @@ const SecondaryDemoBanner = () => {
           </div>
           <div className="col-lg-4 d-lg-flex justify-content-end align-items-center">
             {" "}
-            <Link className="btn btn-outline-light rounded-0 mt-4 px-5">
+            <Link to="/book-demo" className="btn btn-outline-light rounded-0 mt-4 px-5">
               Book a free demo
             </Link>
           </div>
