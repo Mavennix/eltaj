@@ -2,6 +2,7 @@ import React from "react"
 import footerMenu from "../../data/footer-menu"
 import { Link } from "gatsby"
 import QmaticLogo from "../../images/qmatic-logo.png"
+import socialMedia from "../../data/social-media"
 const Footer = () => {
   return (
     <div className="container">
@@ -11,8 +12,8 @@ const Footer = () => {
             <h3>{menu.title}</h3>
             <ul className="nav flex-column">
               {menu.menuItems.map(menuItem => (
-                <li class="nav-item">
-                  <Link class="nav-link px-0 py-1 text-muted" to={menuItem.to}>
+                <li className="nav-item">
+                  <Link className="nav-link px-0 py-1 text-muted" to={menuItem.to}>
                     {menuItem.text}
                   </Link>
                 </li>
@@ -24,19 +25,29 @@ const Footer = () => {
         <div className="col-lg-3 col-md-6 mb-5">
           <h3>Contact us</h3>
           <ul className="nav flex-column">
-            <li class="nav-item">
-              <p class="nav-link px-0 py-1 text-muted">
+            <li className="nav-item">
+              <p className="nav-link px-0 py-1 text-muted">
                 info@eltajsolutions.com
               </p>
             </li>
-            <li class="nav-item">
-              <p class="nav-link px-0 py-1 text-muted">+234-808-829-1121</p>
+            <li className="nav-item">
+              <p className="nav-link px-0 py-1 text-muted">+234-811-999-8880</p>
             </li>
-            <li class="nav-item">
-              <p class="nav-link px-0 py-1 text-muted">
+            <li className="nav-item">
+              <p className="nav-link px-0 py-1 text-muted">
                 ELTAJ Solutions Ltd. Eko Atlantic City, Bar Beach, Eko Pearl
                 Towers, Victoria Island, Lagos Nigeria
               </p>
+            </li>
+            
+            <li className="nav-item">
+              <ul className="nav">
+                {
+                  socialMedia.map((sm, index)=> <li key={index}>
+                    <a className="mr-3" rel="noreferrer" target="_blank" href={sm.link}><img src={sm.icon} height="30" alt=""/></a>
+                  </li>)
+                }
+              </ul>
             </li>
           </ul>
         </div>

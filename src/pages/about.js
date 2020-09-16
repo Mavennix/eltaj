@@ -10,6 +10,7 @@ import LightTitleBox from "../components/light-title-box"
 import WhoWeAre from '../images/about/about.png'
 import WhatWeOfferImg from '../images/about/what-we-offer.png'
 import SolutionTailoredImg from '../images/about/solution-tailored.png'
+import { Link } from 'gatsby';
 
 import EltajImage from "../components/eltaj-image/eltaj-image"
 
@@ -122,11 +123,11 @@ const about = () => {
             </h6>
             <div className="row">
               {leanMoreOptions.map(option => (
-                <div className="col-lg-6 mb-5 text-left">
-                  <div className="rounded blue-hover cursor shadow p-3 d-flex flex-column align-items-start justify-content-between h-100">
-                    <h4 className>{option.text}</h4>
+                <div className="col-md-6 mb-5 text-left">
+                  <Link to={option.to} className=" text-decoration-none rounded blue-hover cursor shadow p-3 d-flex flex-column align-items-start justify-content-between h-100">
+                    <h6 className="">{option.text}</h6>
                     <img src={RightArrowIcon} alt="" />
-                  </div>
+                  </Link>
                 </div>
               ))}
             </div>

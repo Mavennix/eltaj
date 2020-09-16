@@ -4,16 +4,12 @@ import HeroImg from "../images/customer-feedback/hero.png"
 import AboutImage from "../images/customer-feedback/about-customer-feedback.png"
 import QMSBenefitImage from "../images/customer-feedback/benefit-customer-feedback.png"
 import BusinessActionImage from "../images/customer-feedback/customer-feedback.png"
-import VoiceOfCustomerImg from '../images/customer-feedback/voice-of-customer.png'
+import VoiceOfCustomerImg from '../images/customer-feedback/voice-of-customer.jpg'
 import EltajImage from "../components/eltaj-image/eltaj-image"
 import LightTitleBox from "../components/light-title-box"
 import InfoSection from "../components/info-section/info-section"
-import SecondaryDemoBanner from "../components/secondary-demo-banner"
-import AssetInfoBox from "../components/asset-info-box/asset-info-box"
-import virtualQueueing from "../data/virtual-queueing"
 import PrimaryDemoBanner from "../components/primary-demo-banner"
 import EltajList from "../components/eltaj-list"
-import { Link } from "gatsby"
 import BookDemoBtn from "../components/book-demo-btn"
 
 const customerFeedback = () => {

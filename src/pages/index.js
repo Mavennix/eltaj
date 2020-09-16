@@ -16,9 +16,9 @@ import HeroImg from "../images/landing-page/hero-img.png"
 import PrimaryDemoBanner from "../components/primary-demo-banner"
 import EltajImage from "../components/eltaj-image/eltaj-image"
 import RightArrowIcon from "../images/icons/arrow-right.svg"
-import Button from 'react-bootstrap/Button'
 import { Row } from 'react-bootstrap';
 import BookDemoBtn from '../components/book-demo-btn';
+import { Link } from 'gatsby';
 const IndexPage = () => {
   const [modalShow, setModalShow] = useState(false);
   useEffect(() => {
@@ -118,10 +118,10 @@ const IndexPage = () => {
         <div className="row gutters">
           {leanMoreOptions.map(option => (
             <div className="col-lg-3 col-md-6 mb-4">
-              <div className="cursor blue-hover rounded shadow p-3 d-flex flex-column align-items-start justify-content-between h-100">
+              <Link to={option.to} className="cursor blue-hover rounded text-decoration-none shadow p-3 d-flex flex-column align-items-start justify-content-between h-100">
                 <h6>{option.text}</h6>
                 <img src={RightArrowIcon} alt="" />
-              </div>
+              </Link>
             </div>
           ))}
         </div>

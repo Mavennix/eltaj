@@ -29,7 +29,7 @@ const QmaticCloudSolution = () => (
               <BookDemoBtn/>
 
               <h6 className="text-muted pt-3">Powered by</h6>
-              <img src={QmaticLogo} />
+              <img src={QmaticLogo} alt="" />
             </div>
 
             <div className="col-md-6">

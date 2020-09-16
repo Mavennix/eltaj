@@ -12,7 +12,7 @@ const NotFoundPage = () => (
     <SEO title="404: Not found" />
     <div className="container mt-5">
       <div className="text-center">
-        <img src={NotFoundImage} className="img-fluid" />
+        <img src={NotFoundImage} className="img-fluid" alt="" />
         <h2 className="display-4 font-weight-bold my-4">Page Not Found</h2>
         <h5>
           We are not sure what happened, we will look into this. Please go back

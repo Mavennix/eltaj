@@ -8,7 +8,6 @@ import PrimaryDemoBanner from "../components/primary-demo-banner"
 
 import HeroImg from "../images/customer-journey-management/hero.png"
 import AboutImage from "../images/customer-journey-management/customer-journey.png"
-import QMSBenefitImage from "../images/queue-management/qms-benefit.jpg"
 import BusinessActionImage from "../images/customer-journey-management/customer-touch-point.png"
 import CustomerInteration from "../images/customer-journey-management/customer-interaction.png"
 import OptimizeExperienceImg  from '../images/customer-journey-management/optimize-experience.png'

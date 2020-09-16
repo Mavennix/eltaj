@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../components/layout"
-import LightTitleBox from "../components/light-title-box"
 import EltajImage from "../components/eltaj-image/eltaj-image"
 import HeroImg from "../images/product-qmatic/orchestra-7-hero.png"
 import QmaticLogo from "../images/qmatic-logo-2.svg"
@@ -39,7 +38,7 @@ const QmaticOrchestra7 = () => (
               <BookDemoBtn/>
 
               <h6 className="text-muted pt-3">Powered by</h6>
-              <img src={QmaticLogo} />
+              <img src={QmaticLogo} alt="" />
             </div>
 
             <div className="col-md-6">
@@ -72,7 +71,7 @@ const QmaticOrchestra7 = () => (
             <Row className="py-5">
               <iframe
                 src="https://www.youtube.com/embed/OwjzZwRS3xw"
-                // title={videoTitle}
+                title="qmatic"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 frameBorder="0"
                 webkitallowfullscreen="true"

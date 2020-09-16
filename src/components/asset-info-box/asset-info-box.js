@@ -8,7 +8,7 @@ const AssetInfoBox = (props) => {
           className="d-flex"
           style={{ height: "80px", width: "80px" }}
         >
-          <img src={props.image} />
+          <img src={props.image} alt="" />
         </div>
         <h5 className="text-left my-4">{props.title}</h5>
         <div className="text-muted text-left">

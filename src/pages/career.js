@@ -47,7 +47,7 @@ const Career = () => {
                 <Row className="mt-5 mb-4">
                     <div className="col-md-3 mb-md-0 mb-3">
                         <CardWithBoxShadow>
-                            <img src={PassionImage} style={{ maxWidth: '40px' }} />
+                            <img src={PassionImage} style={{ maxWidth: '40px' }} alt="" />
 
                             <h5 className="pt-3">Passion</h5>
 
@@ -57,7 +57,7 @@ const Career = () => {
 
                     <div className="col-md-3 mb-md-0 mb-3">
                         <CardWithBoxShadow>
-                            <img src={CollaborationImage} style={{ maxWidth: '40px' }} />
+                            <img src={CollaborationImage} style={{ maxWidth: '40px' }} alt="" />
 
                             <h5 className="pt-3">Collaboration</h5>
 
@@ -67,7 +67,7 @@ const Career = () => {
 
                     <div className="col-md-3 mb-md-0 mb-3">
                         <CardWithBoxShadow>
-                            <img src={CreedImage} style={{ maxWidth: '40px' }} />
+                            <img src={CreedImage} style={{ maxWidth: '40px' }} alt="" />
 
                             <h5 className="pt-3">Creed</h5>
 
@@ -77,7 +77,7 @@ const Career = () => {
 
                     <div className="col-md-3 mb-md-0 mb-3">
                         <CardWithBoxShadow>
-                            <img src={ClockImage} style={{ maxWidth: '40px' }} />
+                            <img src={ClockImage} style={{ maxWidth: '40px' }}  alt="" />
 
                             <h5 className="pt-3">Time</h5>
 

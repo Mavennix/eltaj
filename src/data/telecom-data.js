@@ -1,7 +1,7 @@
 import CustomerFeedback from '../images/industries/customer-feedback.png';
 import DigitalTransformation from '../images/industries/digital-transformation.png';
 import PeopleCart from '../images/industries/people-cart.png';
-import StreamlineJourney from '../images/industries/streamline-journey.png';
+import StreamlineJourney from '../images/customer-feedback/voice-of-customer.jpg';
 import EngageCustomer from '../images/industries/engage-customer.png'
 
 const TelecomData = [

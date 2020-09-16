@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import PrimaryDemoBanner from "../components/primary-demo-banner"
 import CardWithBoxShadow from "../components/card"
-import { Row, Container } from "react-bootstrap"
+import {Container } from "react-bootstrap"
 import VeryDayLogo from "../images/partners/veryday.png"
 import QmaticLogo from "../images/qmatic-logo-2.svg"
 

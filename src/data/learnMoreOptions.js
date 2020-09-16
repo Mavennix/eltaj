@@ -1,19 +1,19 @@
 const leanMoreOptions = [
   {
     text: "Queue Management",
-    to: "/about-us",
+    to: "/queue-management",
   },
   {
     text: "Customer Journey Management",
-    to: "/about-us",
+    to: "/customer-journey-management",
   },
   {
     text: "Customer Feedback",
-    to: "/about-us",
+    to: "/customer-feedback",
   },
   {
     text: "Business Intelligence",
-    to: "/about-us",
+    to: "/business-intelligence",
   },
 ]
 

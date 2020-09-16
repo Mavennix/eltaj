@@ -1,7 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import DropdownButton from "react-bootstrap/DropdownButton"
-import Dropdown from "react-bootstrap/Dropdown"
 import NavDropdown from "react-bootstrap/NavDropdown"
 import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"

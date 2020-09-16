@@ -19,12 +19,8 @@ const footerMenu = [
         to: "/partners",
       },
       {
-        text: "Terms and Condition",
-        to: "/about-us",
-      },
-      {
         text: "Privacy Policy",
-        to: "/about-us",
+        to: "/privacy-policy",
       },
     ],
   },
