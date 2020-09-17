@@ -13,9 +13,18 @@ const Footer = () => {
             <ul className="nav flex-column">
               {menu.menuItems.map(menuItem => (
                 <li className="nav-item">
-                  <Link className="nav-link px-0 py-1 text-muted" to={menuItem.to}>
-                    {menuItem.text}
-                  </Link>
+                  {menuItem.text === "Blog" ? (
+                    <a className="nav-link px-0 py-1 text-muted" href={menuItem.to} target="_blank">
+                      {menuItem.text}
+                    </a>
+                  ) : (
+                    <Link
+                      className="nav-link px-0 py-1 text-muted"
+                      to={menuItem.to}
+                    >
+                      {menuItem.text}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>
@@ -39,14 +48,21 @@ const Footer = () => {
                 Towers, Victoria Island, Lagos Nigeria
               </p>
             </li>
-            
+
             <li className="nav-item">
               <ul className="nav">
-                {
-                  socialMedia.map((sm, index)=> <li key={index}>
-                    <a className="mr-3" rel="noreferrer" target="_blank" href={sm.link}><img src={sm.icon} height="30" alt=""/></a>
-                  </li>)
-                }
+                {socialMedia.map((sm, index) => (
+                  <li key={index}>
+                    <a
+                      className="mr-3"
+                      rel="noreferrer"
+                      target="_blank"
+                      href={sm.link}
+                    >
+                      <img src={sm.icon} height="30" alt="" />
+                    </a>
+                  </li>
+                ))}
               </ul>
             </li>
           </ul>
@@ -54,13 +70,11 @@ const Footer = () => {
       </div>
       <div className="d-flex flex-column-reverse flex-lg-row justify-content-between my-5 text-center text-lg-left">
         <div className="text-muted d-flex flex-column">
-          <small>
-            Copyright © 2016 - 2020. ELTAJ Solutions Ltd.
-          </small>
+          <small>Copyright © 2016 - 2020. ELTAJ Solutions Ltd.</small>
           <small>All rights reserved.</small>
         </div>
         <div>
-          <img className="mb-4 mb-lg-0" src={QmaticLogo} alt="" height="30"/>
+          <img className="mb-4 mb-lg-0" src={QmaticLogo} alt="" height="30" />
         </div>
       </div>
     </div>

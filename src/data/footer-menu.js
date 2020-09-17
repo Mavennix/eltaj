@@ -12,7 +12,7 @@ const footerMenu = [
       },
       {
         text: "Blog",
-        to: "",
+        to: "http://blog.eltajsolutions.com/",
       },
       {
         text: "Partners",
