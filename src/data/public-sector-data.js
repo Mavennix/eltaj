@@ -9,7 +9,7 @@ const PublicSectorData = [
     title: "",
     image: OldPeople,
     subTitle:
-      "Government leaders who believe in the power of customer experience in improving citizens morale and well-being should adopt smart digital technologies to transform agencies. With ELTAJ’s customer experience solution (customer feedback, queue management system, business intelligence) - agencies can create a seamless customer experience to provide hassle free service for citizens in agencies (tax office, corporate affairs etc) while increasing workers efficiency.",
+      "Government leaders who believe in the power of customer experience in improving citizens morale and well-being should adopt smart digital technologies to transform government agencies. With ELTAJ’s customer experience solution (customer feedback, queue management system, business intelligence) - government agencies can create a seamless customer experience to provide hassle free service for citizens in government agencies (tax office, corporate affairs etc) while increasing workers efficiency.",
     features: [],
   },
   {
@@ -19,7 +19,7 @@ const PublicSectorData = [
     features: [
       "Citizens can find agency locations online and schedule an appointment before walking into your premises.",
       "Citizens can reschedule existing appointments online.",
-      "On arrival, citizens check in on the qmatic solo and queue remotely.",
+      "On arrival, citizens check in on the Self Service Kiosk and queue remotely.",
       "At the end of the appointment , collect feedback on customer satisfaction.",
     ],
   },

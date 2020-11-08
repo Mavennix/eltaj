@@ -66,13 +66,13 @@ const QmaticCloudSolution = () => (
 
           <Row className="pt-4">
             <div className="col-md-4">
-              <EltajList text="77% - Enterprises that have at least one application in the cloud" />
+              <EltajList text="Enterprises that have at least one application in the cloud" />
             </div>
             <div className="col-md-4">
-              <EltajList text="60%- Organisations that use cloud to store data." />
+              <EltajList text="Organisations that use cloud to store data." />
             </div>
             <div className="col-md-4">
-              <EltajList text="74%- CFOs that say cloud technology had a groundbreaking impact on their business." />
+              <EltajList text="CFOs that say cloud technology had a groundbreaking impact on their business." />
             </div>
           </Row>
         </Container>

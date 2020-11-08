@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../components/layout"
-import HeroImg from "../images/online-appointment-booking/online-appointment-img.png"
 import AboutImage from "../images/online-appointment-booking/about-img.png"
 import QMSBenefitImage from "../images/online-appointment-booking/system-online-booking.png"
 import BookingTabImg from "../images/online-appointment-booking/how-it-works-tab.png"
@@ -40,7 +39,7 @@ const onlineAppointmentBooking = () => {
               </div>
 
               <div className="col-md-6">
-                <EltajImage image={HeroImg} isImageRight={true} />
+                <EltajImage image={BookingPhoneImg} isImageRight={true} />
                 {/* <img src={HeroImg} alt="Hero" className="img-fluid" /> */}
               </div>
             </div>

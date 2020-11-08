@@ -29,7 +29,7 @@ const QmaticCloudFeatures = [
         ]
     },
     {
-        title: 'Subscribe to a pay-as-you-use software solution with high RIO',
+        title: 'Subscribe to a pay-as-you-use software solution with high ROI',
         image: PayAsYouUseImg,
         subTitle: '',
         features: [

@@ -19,7 +19,7 @@ const TelecomData = [
         features: [
             'Customers can find their preferred service centers online and schedule an appointment before walking into your premises.',
             'Customers can reschedule existing appointments online.',
-            'On arrival, customers check in on the qmatic solo and queue remotely.',
+            'On arrival, customers check in on the Self Service Kiosk and queue remotely.',
             'At the end of the appointment , collect feedback on customer satisfaction.'
         ]
     },

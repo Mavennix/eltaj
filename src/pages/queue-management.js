@@ -58,9 +58,9 @@ const queueManagement = () => {
               With the Qmatic Solo, you can manage customer flow, streamline their customer journey and maintain social distancing rules. Thereby, obeying Government's directives on COVID-19 while contributing your quota in flattening the curve.
             </h6>
             <div>
-              <EltajList text="74%- Customer go to competitors to avoid long queue" />
+              {/* <EltajList text="74%- Customer go to competitors to avoid long queue" />
               <EltajList text="59% - customer do not wait more than 4 minutes on a queue" />
-              <EltajList text="87% - customers that are willing to use queue technology to experience short queue time" />
+              <EltajList text="87% - customers that are willing to use queue technology to experience short queue time" /> */}
             </div>
           </InfoSection>
         </section>

@@ -14,7 +14,7 @@ const Footer = () => {
               {menu.menuItems.map(menuItem => (
                 <li className="nav-item">
                   {menuItem.text === "Blog" ? (
-                    <a className="nav-link px-0 py-1 text-muted" href={menuItem.to} target="_blank">
+                    <a className="nav-link px-0 py-1 text-muted" href={menuItem.to} target="_blank" rel="noreferrer">
                       {menuItem.text}
                     </a>
                   ) : (

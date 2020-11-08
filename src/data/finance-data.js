@@ -10,9 +10,9 @@ const FinanceData = [
         image: QueueImg,
         subTitle: 'Customer experience with the banking system has improved drastically. With the mass adoption of online banking, customers can perform banking transactions in their homes. However, more complex transactions like issuing of documents, BVN activation can only be performed face-to-face in physical branches. And, it is expedient that their journey is seamless in your branches as is on other channels. This is where smart digital branch transformation comes to play.',
         features: [
-            '50% - of customers that want face-to-face branch service',
-            '60% - Customer willing to pay more for a better experience',
-            '87%- Banking leaders agree customization gives competitive edge',
+            'Customers want face-to-face branch service',
+            'Customers are willing to pay more for a better experience',
+            'Bank leaders agree that customization gives competitive edge',
         ]
     },
     {
@@ -21,7 +21,7 @@ const FinanceData = [
         image: QmaticWelcome,
         features: [
             'Customers can find preferred branches online and schedule an appointment before walking into your premises.',
-            'On arrival, customers can use the Qmatic solo to check-in and queue remotely.',
+            'On arrival, customers can use the Self Service Kiosk to check-in and queue remotely.',
             'At the end of the appointment , collect feedback on customer satisfaction.'
         ]
     },

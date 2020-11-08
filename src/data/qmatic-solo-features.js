@@ -26,7 +26,7 @@ const QmaticSoloFeatures = [
         ]
     },
     {
-        title: 'Manage your branches from a centralised location',
+        title: 'Manage your branches from a single location',
         image: TrackImg,
         subTitle: 'With qmatic solo integrated with the management portal, you can monitor customer flow in your head office. The integration will help you:',
         features: [

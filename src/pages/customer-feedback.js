@@ -90,7 +90,7 @@ understand what the feedback says about your business,  learn how it affects eac
             </h6>
             <div>
               <EltajList text="Collect customer feedback and organise the data." />
-              <EltajList text="Analyze customer journey management data to pinpoint the most important business metrics and trends.e." />
+              <EltajList text="Analyze customer journey management data to pinpoint the most important business metrics and trends." />
               <EltajList text="Predict market projections by estimating trends in customer behaviour." />
             </div>
           </InfoSection>

@@ -25,13 +25,12 @@ const BookDemo = () => {
   const handleSubmit = e => {
     e.preventDefault()
     console.log(demoField)
-    sendFeedback("template_hI2oqY27", demoField)
+    sendFeedback("template_kx91656", demoField)
   }
   const sendFeedback = (templateId, variables) => {
     setLoadingState(true);
-
     emailjs
-      .send("gmail", templateId, variables, "user_DNaCPxDitbp8cGtRbkRL8")
+      .send("service_pqoegb9", templateId, variables, "user_tkuAZxmwlOE0ygtpNwPzY")
       .then(res => {
         setDemoField({
           lastName: "",

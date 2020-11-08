@@ -75,9 +75,9 @@ const BusinessIntelligence = () => (
             WHY YOU SHOULD PRIORITIZE BUSINESS INTELLIGENCE?
           </h2>
           <div>
-            <EltajList text="122% - 5 years average Return-on-investment of Business Intelligence" />
-            <EltajList text="89% - Business leaders believe that big data will revolutionize business operations, just like the Internet did." />
-            <EltajList text="91%- Global companies increasing investment in big data." />
+            <EltajList text="5 years average Return-on-investment of Business Intelligence" />
+            <EltajList text="Business leaders believe that big data will revolutionize business operations, just like the Internet did." />
+            <EltajList text="Global companies increasing investment in big data." />
           </div>
         </InfoSection>
       </section>
@@ -93,10 +93,11 @@ const BusinessIntelligence = () => (
       <section className="container my-5 pt-5">
         <InfoSection textFirst={false} image={MonitorPerformanceImg}>
           <h2 className="mb-4">
-            Monitor your overall business performance at a glance. In real-time.
+            Monitor your overall business performance at a glance in real-time.
           </h2>
+          
           <h6 className="text-muted mb-3">
-            With the Qmatic Bi solution in action, you can monitor your overall business performance at a glance. Just view, zoom and slide over your mobile devices and desktop. You wouldn’t miss a bit of it. And every correctional action you take will be accurate and timely.
+            With the Qmatic BI solution in action, you can monitor your overall business performance at a glance. Just view, zoom and slide over your mobile devices and desktop. You wouldn’t miss a bit of it. And every correctional action you take will be accurate and timely.
           </h6>
           <div className="pt-3">
             <EltajList text="Monitor your business performance on a customizable dashboard: From the counter, customer bookings, employee interaction, etc., you are in total control of all your business interactions." />
@@ -116,7 +117,7 @@ const BusinessIntelligence = () => (
             The Qmatic BI tool presents meaningful reports and statistics on your business performance across zones, branches, and departments. With its intuitive and logical interface, you can measure your business performance and make well-informed decisions. The tool empowers you to:
           </h6>
           <div className="pt-3">
-            <EltajList text="Measure the efficiency of your branches with drag-and-drop data fields and point-and-click analytics.ck analytics." />
+            <EltajList text="Measure the efficiency of your branches with drag-and-drop data fields and point-and-click analytics." />
             <EltajList text="Empower your employees to make informed decisions at real-time with the web-based mobile business analytics." />
             <EltajList text="Analyze customer journey management data to pinpoint the most important business metrics and trends to improve customer experience" />
           </div>

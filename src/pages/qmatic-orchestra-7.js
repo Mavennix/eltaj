@@ -17,6 +17,7 @@ import SeamlessIntegration from "../images/landing-page/seamless-integration.svg
 import BusinessDecision from "../data/business-decision"
 import QmaticImage from "../images/product-qmatic/qmatic.png"
 import BookDemoBtn from "../components/book-demo-btn"
+import { Link } from "gatsby"
 
 const QmaticOrchestra7 = () => (
   <div>
@@ -82,9 +83,9 @@ const QmaticOrchestra7 = () => (
               />
             </Row>
 
-            <button className="btn btn-primary rounded-0 text-center px-4 mt-3">
+            {/* <button className="btn btn-primary rounded-0 text-center px-4 mt-3">
               Learn more
-            </button>
+            </button> */}
           </div>
         </Container>
       </section>
@@ -110,9 +111,9 @@ const QmaticOrchestra7 = () => (
               </div>
             </Row>
 
-            <button className="btn btn-primary rounded-0 text-center px-4 mt-3">
+            {/* <button className="btn btn-primary rounded-0 text-center px-4 mt-3">
               Learn more
-            </button>
+            </button> */}
           </div>
 
           <Row className="mt-5">
@@ -237,9 +238,9 @@ const QmaticOrchestra7 = () => (
           </Row>
 
           <div className="text-center mt-3">
-            <button className="btn btn-primary rounded-0 text-center px-4 mt-4">
+            <Link to="/business-intelligence" className="btn btn-primary rounded-0 text-center px-4 mt-4">
               Learn more
-            </button>
+            </Link>
           </div>
         </Container>
       </section>

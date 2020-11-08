@@ -76,6 +76,10 @@ const footerMenu = [
         text: "Public Sector",
         to: "/public-sector",
       },
+      {
+        text: "Retail",
+        to: "/retail",
+      },
     ],
   },
 ]

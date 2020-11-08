@@ -12,7 +12,7 @@ const PrimaryTwoColumnBanner = (props) => (
 
                 <div className={`col-md-6 text-${props.buttonPosition}`}>
                     {
-                        props.buttonText && <Link className="btn btn-outline-light rounded-0 mt-4 px-5">{props.buttonText}</Link>
+                        props.buttonText && <Link to="/book-demo" className="btn btn-outline-light rounded-0 mt-4 px-5">{props.buttonText}</Link>
                     }
                 </div>
             </Row>

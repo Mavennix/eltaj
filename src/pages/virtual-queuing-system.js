@@ -79,7 +79,7 @@ const virtualQueuingSystem = () => {
             </h2>
             <h6 className="text-muted mb-3">
               Transform your branches into smart branches to monitor and manage
-              customer behaviour while they wait to earn your service. With
+              customer behaviour while they wait to get served. With
               ELTAJ’s Business intelligence tool, you get real-time data on your
               service, customer wait time and customer behaviour.
             </h6>
